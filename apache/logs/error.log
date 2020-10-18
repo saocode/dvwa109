@@ -1,0 +1,94 @@
+[Sun Oct 11 14:26:35.396847 2020] [ssl:warn] [pid 5852:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Sun Oct 11 14:26:35.456866 2020] [ssl:warn] [pid 5852:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 11 14:26:35.489847 2020] [mpm_winnt:notice] [pid 5852:tid 548] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Sun Oct 11 14:26:35.489847 2020] [mpm_winnt:notice] [pid 5852:tid 548] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Oct 11 14:26:35.491593 2020] [core:notice] [pid 5852:tid 548] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Oct 11 14:26:35.493594 2020] [mpm_winnt:notice] [pid 5852:tid 548] AH00418: Parent: Created child process 948
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Sun Oct 11 14:26:35.944793 2020] [ssl:warn] [pid 948:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Sun Oct 11 14:26:35.997112 2020] [ssl:warn] [pid 948:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 11 14:26:36.032088 2020] [mpm_winnt:notice] [pid 948:tid 544] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 12 11:23:46.875103 2020] [ssl:warn] [pid 20620:tid 520] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 12 11:23:46.930071 2020] [core:warn] [pid 20620:tid 520] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 12 11:23:46.940066 2020] [ssl:warn] [pid 20620:tid 520] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 12 11:23:47.016542 2020] [mpm_winnt:notice] [pid 20620:tid 520] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 12 11:23:47.016542 2020] [mpm_winnt:notice] [pid 20620:tid 520] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 12 11:23:47.016542 2020] [core:notice] [pid 20620:tid 520] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 12 11:23:47.020542 2020] [mpm_winnt:notice] [pid 20620:tid 520] AH00418: Parent: Created child process 22208
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 12 11:23:47.633031 2020] [ssl:warn] [pid 22208:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 12 11:23:47.693996 2020] [ssl:warn] [pid 22208:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 12 11:23:47.744964 2020] [mpm_winnt:notice] [pid 22208:tid 640] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 12 11:25:40.446930 2020] [php7:notice] [pid 22208:tid 1828] [client ::1:62700] PHP Warning:  require(C:\\xampp\\htdocs\\bcit/vendor/autoload.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\header.php on line 19
+[Mon Oct 12 11:25:40.447929 2020] [php7:notice] [pid 22208:tid 1828] [client ::1:62700] PHP Stack trace:
+[Mon Oct 12 11:25:40.447929 2020] [php7:notice] [pid 22208:tid 1828] [client ::1:62700] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\index.php:0
+[Mon Oct 12 11:25:40.447929 2020] [php7:notice] [pid 22208:tid 1828] [client ::1:62700] PHP   2. include() C:\\xampp\\htdocs\\bcit\\index.php:18
+[Mon Oct 12 11:25:40.447929 2020] [php7:notice] [pid 22208:tid 1828] [client ::1:62700] PHP Fatal error:  require(): Failed opening required 'C:\\xampp\\htdocs\\bcit/vendor/autoload.php' (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\header.php on line 19
+[Mon Oct 12 11:25:40.448927 2020] [php7:notice] [pid 22208:tid 1828] [client ::1:62700] PHP Stack trace:
+[Mon Oct 12 11:25:40.448927 2020] [php7:notice] [pid 22208:tid 1828] [client ::1:62700] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\index.php:0
+[Mon Oct 12 11:25:40.448927 2020] [php7:notice] [pid 22208:tid 1828] [client ::1:62700] PHP   2. include() C:\\xampp\\htdocs\\bcit\\index.php:18
+[Mon Oct 12 11:26:21.322657 2020] [php7:notice] [pid 22208:tid 1836] [client ::1:62699] PHP Warning:  require(C:\\xampp\\htdocs\\bcit\\vendor\\composer/../symfony/polyfill-mbstring/bootstrap.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\vendor\\composer\\autoload_real.php on line 69
+[Mon Oct 12 11:26:21.322657 2020] [php7:notice] [pid 22208:tid 1836] [client ::1:62699] PHP Stack trace:
+[Mon Oct 12 11:26:21.323657 2020] [php7:notice] [pid 22208:tid 1836] [client ::1:62699] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\index.php:0
+[Mon Oct 12 11:26:21.323657 2020] [php7:notice] [pid 22208:tid 1836] [client ::1:62699] PHP   2. include() C:\\xampp\\htdocs\\bcit\\index.php:18
+[Mon Oct 12 11:26:21.323657 2020] [php7:notice] [pid 22208:tid 1836] [client ::1:62699] PHP   3. require() C:\\xampp\\htdocs\\bcit\\header.php:19
+[Mon Oct 12 11:26:21.323657 2020] [php7:notice] [pid 22208:tid 1836] [client ::1:62699] PHP   4. ComposerAutoloaderInit066f66315700aff75a8ec563b5962b76::getLoader() C:\\xampp\\htdocs\\bcit\\vendor\\autoload.php:7
+[Mon Oct 12 11:26:21.323657 2020] [php7:notice] [pid 22208:tid 1836] [client ::1:62699] PHP   5. composerRequire066f66315700aff75a8ec563b5962b76($fileIdentifier = *uninitialized*, $file = *uninitialized*) C:\\xampp\\htdocs\\bcit\\vendor\\composer\\autoload_real.php:59
+[Mon Oct 12 11:26:21.324656 2020] [php7:notice] [pid 22208:tid 1836] [client ::1:62699] PHP Fatal error:  require(): Failed opening required 'C:\\xampp\\htdocs\\bcit\\vendor\\composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\vendor\\composer\\autoload_real.php on line 69
+[Mon Oct 12 11:26:21.324656 2020] [php7:notice] [pid 22208:tid 1836] [client ::1:62699] PHP Stack trace:
+[Mon Oct 12 11:26:21.324656 2020] [php7:notice] [pid 22208:tid 1836] [client ::1:62699] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\index.php:0
+[Mon Oct 12 11:26:21.325656 2020] [php7:notice] [pid 22208:tid 1836] [client ::1:62699] PHP   2. include() C:\\xampp\\htdocs\\bcit\\index.php:18
+[Mon Oct 12 11:26:21.325656 2020] [php7:notice] [pid 22208:tid 1836] [client ::1:62699] PHP   3. require() C:\\xampp\\htdocs\\bcit\\header.php:19
+[Mon Oct 12 11:26:21.325656 2020] [php7:notice] [pid 22208:tid 1836] [client ::1:62699] PHP   4. ComposerAutoloaderInit066f66315700aff75a8ec563b5962b76::getLoader() C:\\xampp\\htdocs\\bcit\\vendor\\autoload.php:7
+[Mon Oct 12 11:26:21.326655 2020] [php7:notice] [pid 22208:tid 1836] [client ::1:62699] PHP   5. composerRequire066f66315700aff75a8ec563b5962b76($fileIdentifier = *uninitialized*, $file = *uninitialized*) C:\\xampp\\htdocs\\bcit\\vendor\\composer\\autoload_real.php:59
+[Mon Oct 12 11:45:28.872337 2020] [php7:notice] [pid 22208:tid 1820] [client ::1:63616] PHP Warning:  require(C:\\xampp\\htdocs\\bcit/vendor/autoload.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\header.php on line 19
+[Mon Oct 12 11:45:28.873335 2020] [php7:notice] [pid 22208:tid 1820] [client ::1:63616] PHP Stack trace:
+[Mon Oct 12 11:45:28.873335 2020] [php7:notice] [pid 22208:tid 1820] [client ::1:63616] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\index.php:0
+[Mon Oct 12 11:45:28.873335 2020] [php7:notice] [pid 22208:tid 1820] [client ::1:63616] PHP   2. include() C:\\xampp\\htdocs\\bcit\\index.php:18
+[Mon Oct 12 11:45:28.873335 2020] [php7:notice] [pid 22208:tid 1820] [client ::1:63616] PHP Fatal error:  require(): Failed opening required 'C:\\xampp\\htdocs\\bcit/vendor/autoload.php' (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\header.php on line 19
+[Mon Oct 12 11:45:28.874335 2020] [php7:notice] [pid 22208:tid 1820] [client ::1:63616] PHP Stack trace:
+[Mon Oct 12 11:45:28.874335 2020] [php7:notice] [pid 22208:tid 1820] [client ::1:63616] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\index.php:0
+[Mon Oct 12 11:45:28.874335 2020] [php7:notice] [pid 22208:tid 1820] [client ::1:63616] PHP   2. include() C:\\xampp\\htdocs\\bcit\\index.php:18
+[Mon Oct 12 11:46:28.776947 2020] [php7:error] [pid 22208:tid 1800] [client ::1:63668] script 'C:/xampp/htdocs/bcit/tools/phpini.php' not found or unable to stat
+[Mon Oct 12 11:48:06.266424 2020] [php7:error] [pid 22208:tid 1800] [client ::1:63743] script 'C:/xampp/htdocs/bcit/tools/phpinfo.php' not found or unable to stat
+[Mon Oct 12 12:01:26.292859 2020] [php7:notice] [pid 22208:tid 1828] [client 127.0.0.1:64345] PHP Warning:  Header may not contain NUL bytes in Unknown on line 0
+[Sun Oct 18 09:45:20.340030 2020] [ssl:warn] [pid 6816:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Sun Oct 18 09:45:20.448968 2020] [core:warn] [pid 6816:tid 472] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 18 09:45:20.475952 2020] [ssl:warn] [pid 6816:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 18 09:45:21.127577 2020] [mpm_winnt:notice] [pid 6816:tid 472] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Sun Oct 18 09:45:21.127577 2020] [mpm_winnt:notice] [pid 6816:tid 472] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Oct 18 09:45:21.127577 2020] [core:notice] [pid 6816:tid 472] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Oct 18 09:45:21.132575 2020] [mpm_winnt:notice] [pid 6816:tid 472] AH00418: Parent: Created child process 9336
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Sun Oct 18 09:45:21.949103 2020] [ssl:warn] [pid 9336:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Sun Oct 18 09:45:22.034056 2020] [ssl:warn] [pid 9336:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 18 09:45:22.099020 2020] [mpm_winnt:notice] [pid 9336:tid 468] AH00354: Child: Starting 150 worker threads.
+[Sun Oct 18 09:48:25.115885 2020] [php7:notice] [pid 9336:tid 1780] [client ::1:56158] PHP Warning:  Header may not contain NUL bytes in Unknown on line 0
+[Sun Oct 18 09:56:04.566310 2020] [php7:notice] [pid 9336:tid 1804] [client ::1:56380] PHP Notice:  Undefined variable: DBMS_errorFunc in C:\\xampp\\htdocs\\dvwa\\dvwa\\includes\\dvwaPage.inc.php on line 471
+[Sun Oct 18 09:56:04.567310 2020] [php7:notice] [pid 9336:tid 1804] [client ::1:56380] PHP Stack trace:
+[Sun Oct 18 09:56:04.567310 2020] [php7:notice] [pid 9336:tid 1804] [client ::1:56380] PHP   1. {main}() C:\\xampp\\htdocs\\dvwa\\login.php:0
+[Sun Oct 18 09:56:04.568309 2020] [php7:notice] [pid 9336:tid 1804] [client ::1:56380] PHP   2. dvwaDatabaseConnect() C:\\xampp\\htdocs\\dvwa\\login.php:8
