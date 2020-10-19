@@ -56,7 +56,7 @@ if (is_dir($directory)) {
         closedir($handle);
     }
 }
-echo "<a href=\"$appURL/bcit-phpmyadmin\" target=\"_blank\" class=\"w3-bar-item w3-button\">PHP My Admin</a>\r\n";
+echo "<a href=\"$appURL/phpmyadmin\" target=\"_blank\" class=\"w3-bar-item w3-button\">PHP My Admin</a>\r\n";
 
 echo "<a href=\"$appURL/dvwa\" target=\"_blank\" class=\"w3-bar-item w3-button\">Damn Vulnerable Web App</a>\r\n";
 // Output each file as a hyperlink
