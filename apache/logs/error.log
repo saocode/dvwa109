@@ -130,3 +130,254 @@ AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
 AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
 [Mon Oct 19 11:34:45.800628 2020] [ssl:warn] [pid 3208:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Mon Oct 19 11:34:45.831869 2020] [mpm_winnt:notice] [pid 3208:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 11:46:39.996484 2020] [authz_core:error] [pid 3208:tid 1532] [client 174.7.115.156:56821] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:50:28.372460 2020] [authz_core:error] [pid 3208:tid 1544] [client 174.7.115.156:56939] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:50:30.153710 2020] [authz_core:error] [pid 3208:tid 1544] [client 174.7.115.156:56939] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:50:39.627343 2020] [authz_core:error] [pid 3208:tid 1536] [client 174.7.115.156:56938] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:51:09.580468 2020] [authz_core:error] [pid 3208:tid 1532] [client 174.7.115.156:56944] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:51:10.627343 2020] [authz_core:error] [pid 3208:tid 1532] [client 174.7.115.156:56944] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:52:40.931054 2020] [ssl:warn] [pid 3588:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:52:40.962304 2020] [core:warn] [pid 3588:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 11:52:40.962304 2020] [ssl:warn] [pid 3588:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 11:52:40.993554 2020] [mpm_winnt:notice] [pid 3588:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 11:52:40.993554 2020] [mpm_winnt:notice] [pid 3588:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 11:52:40.993554 2020] [core:notice] [pid 3588:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 11:52:40.993554 2020] [mpm_winnt:notice] [pid 3588:tid 256] AH00418: Parent: Created child process 3772
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:52:41.181054 2020] [ssl:warn] [pid 3772:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:52:41.196679 2020] [ssl:warn] [pid 3772:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 11:52:41.227929 2020] [mpm_winnt:notice] [pid 3772:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 11:53:46.015039 2020] [authz_core:error] [pid 3772:tid 1540] [client 174.7.115.156:57008] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:53:52.312890 2020] [ssl:warn] [pid 3976:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:53:52.344140 2020] [core:warn] [pid 3976:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 11:53:52.344140 2020] [ssl:warn] [pid 3976:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 11:53:52.375390 2020] [mpm_winnt:notice] [pid 3976:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 11:53:52.375390 2020] [mpm_winnt:notice] [pid 3976:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 11:53:52.375390 2020] [core:notice] [pid 3976:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 11:53:52.375390 2020] [mpm_winnt:notice] [pid 3976:tid 256] AH00418: Parent: Created child process 4236
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:53:52.562890 2020] [ssl:warn] [pid 4236:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:53:52.594140 2020] [ssl:warn] [pid 4236:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 11:53:52.625390 2020] [mpm_winnt:notice] [pid 4236:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 11:55:38.279687 2020] [ssl:warn] [pid 3636:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:55:38.295312 2020] [core:warn] [pid 3636:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 11:55:38.295312 2020] [ssl:warn] [pid 3636:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 11:55:38.326562 2020] [mpm_winnt:notice] [pid 3636:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 11:55:38.326562 2020] [mpm_winnt:notice] [pid 3636:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 11:55:38.326562 2020] [core:notice] [pid 3636:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 11:55:38.326562 2020] [mpm_winnt:notice] [pid 3636:tid 256] AH00418: Parent: Created child process 2956
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:55:38.514062 2020] [ssl:warn] [pid 2956:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:55:38.548242 2020] [ssl:warn] [pid 2956:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 11:55:38.579492 2020] [mpm_winnt:notice] [pid 2956:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 11:55:44.853906 2020] [authz_core:error] [pid 2956:tid 1548] [client 174.7.115.156:57062] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:55:48.620507 2020] [authz_core:error] [pid 2956:tid 1548] [client 174.7.115.156:57062] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:55:49.417382 2020] [authz_core:error] [pid 2956:tid 1548] [client 174.7.115.156:57062] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:55:50.026757 2020] [authz_core:error] [pid 2956:tid 1548] [client 174.7.115.156:57062] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:56:15.218164 2020] [authz_core:error] [pid 2956:tid 1544] [client 174.7.115.156:57061] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:56:24.033593 2020] [ssl:warn] [pid 4532:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:56:24.064843 2020] [core:warn] [pid 4532:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 11:56:24.064843 2020] [ssl:warn] [pid 4532:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 11:56:24.080468 2020] [mpm_winnt:notice] [pid 4532:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 11:56:24.080468 2020] [mpm_winnt:notice] [pid 4532:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 11:56:24.080468 2020] [core:notice] [pid 4532:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 11:56:24.080468 2020] [mpm_winnt:notice] [pid 4532:tid 256] AH00418: Parent: Created child process 984
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:56:24.283593 2020] [ssl:warn] [pid 984:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:56:24.314843 2020] [ssl:warn] [pid 984:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 11:56:24.330468 2020] [mpm_winnt:notice] [pid 984:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 11:56:27.237695 2020] [authz_core:error] [pid 984:tid 1552] [client 174.7.115.156:57089] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:56:36.903710 2020] [authz_core:error] [pid 984:tid 1548] [client 174.7.115.156:57088] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:56:47.125390 2020] [ssl:warn] [pid 5084:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:56:47.156640 2020] [core:warn] [pid 5084:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 11:56:47.156640 2020] [ssl:warn] [pid 5084:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 11:56:47.187890 2020] [mpm_winnt:notice] [pid 5084:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 11:56:47.187890 2020] [mpm_winnt:notice] [pid 5084:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 11:56:47.187890 2020] [core:notice] [pid 5084:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 11:56:47.187890 2020] [mpm_winnt:notice] [pid 5084:tid 256] AH00418: Parent: Created child process 4052
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:56:47.375390 2020] [ssl:warn] [pid 4052:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:56:47.406640 2020] [ssl:warn] [pid 4052:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 11:56:47.422265 2020] [mpm_winnt:notice] [pid 4052:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 11:56:51.485742 2020] [authz_core:error] [pid 4052:tid 1552] [client 174.7.115.156:57099] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:56:53.768945 2020] [authz_core:error] [pid 4052:tid 1552] [client 174.7.115.156:57099] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:57:22.619531 2020] [ssl:warn] [pid 1932:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:57:22.635156 2020] [core:warn] [pid 1932:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 11:57:22.635156 2020] [ssl:warn] [pid 1932:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 11:57:22.666406 2020] [mpm_winnt:notice] [pid 1932:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 11:57:22.666406 2020] [mpm_winnt:notice] [pid 1932:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 11:57:22.666406 2020] [core:notice] [pid 1932:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 11:57:22.666406 2020] [mpm_winnt:notice] [pid 1932:tid 256] AH00418: Parent: Created child process 2404
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:57:22.853906 2020] [ssl:warn] [pid 2404:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:57:22.869531 2020] [ssl:warn] [pid 2404:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 11:57:22.916406 2020] [mpm_winnt:notice] [pid 2404:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 11:57:26.667382 2020] [authz_core:error] [pid 2404:tid 1544] [client 174.7.115.156:57115] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:57:27.870507 2020] [authz_core:error] [pid 2404:tid 1544] [client 174.7.115.156:57115] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:57:28.965234 2020] [authz_core:error] [pid 2404:tid 1544] [client 174.7.115.156:57115] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:57:33.670312 2020] [authz_core:error] [pid 2404:tid 1544] [client 174.7.115.156:57115] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:57:34.732812 2020] [authz_core:error] [pid 2404:tid 1544] [client 174.7.115.156:57115] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 11:59:00.407617 2020] [ssl:warn] [pid 4440:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:59:00.438867 2020] [core:warn] [pid 4440:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 11:59:00.438867 2020] [ssl:warn] [pid 4440:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 11:59:00.470117 2020] [mpm_winnt:notice] [pid 4440:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 11:59:00.470117 2020] [mpm_winnt:notice] [pid 4440:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 11:59:00.470117 2020] [core:notice] [pid 4440:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 11:59:00.470117 2020] [mpm_winnt:notice] [pid 4440:tid 256] AH00418: Parent: Created child process 1832
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:59:00.673242 2020] [ssl:warn] [pid 1832:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 11:59:00.704492 2020] [ssl:warn] [pid 1832:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 11:59:00.735742 2020] [mpm_winnt:notice] [pid 1832:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 11:59:11.380273 2020] [authz_core:error] [pid 1832:tid 1540] [client 174.7.115.156:57158] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 12:03:29.511918 2020] [ssl:warn] [pid 3380:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 12:03:29.527517 2020] [core:warn] [pid 3380:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 12:03:29.543116 2020] [ssl:warn] [pid 3380:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 12:03:29.558716 2020] [mpm_winnt:notice] [pid 3380:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 12:03:29.558716 2020] [mpm_winnt:notice] [pid 3380:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 12:03:29.558716 2020] [core:notice] [pid 3380:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 12:03:29.558716 2020] [mpm_winnt:notice] [pid 3380:tid 256] AH00418: Parent: Created child process 4460
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 12:03:29.761505 2020] [ssl:warn] [pid 4460:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 12:03:29.777104 2020] [ssl:warn] [pid 4460:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 12:03:29.808303 2020] [mpm_winnt:notice] [pid 4460:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 12:05:24.541387 2020] [ssl:warn] [pid 3352:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 12:05:24.572586 2020] [core:warn] [pid 3352:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 12:05:24.572586 2020] [ssl:warn] [pid 3352:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 12:05:24.603784 2020] [mpm_winnt:notice] [pid 3352:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 12:05:24.603784 2020] [mpm_winnt:notice] [pid 3352:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 12:05:24.603784 2020] [core:notice] [pid 3352:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 12:05:24.603784 2020] [mpm_winnt:notice] [pid 3352:tid 256] AH00418: Parent: Created child process 5052
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 12:05:24.790974 2020] [ssl:warn] [pid 5052:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 12:05:24.822173 2020] [ssl:warn] [pid 5052:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 12:05:24.853371 2020] [mpm_winnt:notice] [pid 5052:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 12:06:13.602819 2020] [ssl:warn] [pid 624:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 12:06:13.618418 2020] [core:warn] [pid 624:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 12:06:13.618418 2020] [ssl:warn] [pid 624:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 12:06:13.644740 2020] [mpm_winnt:notice] [pid 624:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 12:06:13.644740 2020] [mpm_winnt:notice] [pid 624:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 12:06:13.644740 2020] [core:notice] [pid 624:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 12:06:13.646690 2020] [mpm_winnt:notice] [pid 624:tid 256] AH00418: Parent: Created child process 4460
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 12:06:13.865079 2020] [ssl:warn] [pid 4460:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 12:06:13.896277 2020] [ssl:warn] [pid 4460:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 12:06:13.911876 2020] [mpm_winnt:notice] [pid 4460:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 12:07:01.924259 2020] [ssl:warn] [pid 2036:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 12:07:01.955457 2020] [core:warn] [pid 2036:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 12:07:01.955457 2020] [ssl:warn] [pid 2036:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 12:07:01.986655 2020] [mpm_winnt:notice] [pid 2036:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 12:07:01.986655 2020] [mpm_winnt:notice] [pid 2036:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 12:07:01.986655 2020] [core:notice] [pid 2036:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 12:07:01.986655 2020] [mpm_winnt:notice] [pid 2036:tid 256] AH00418: Parent: Created child process 3268
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 12:07:02.173846 2020] [ssl:warn] [pid 3268:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 12:07:02.205044 2020] [ssl:warn] [pid 3268:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 12:07:02.236243 2020] [mpm_winnt:notice] [pid 3268:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 12:07:06.418778 2020] [authz_core:error] [pid 3268:tid 1552] [client 174.7.115.156:57342] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 12:25:10.991955 2020] [ssl:warn] [pid 2248:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 12:25:11.007561 2020] [core:warn] [pid 2248:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 12:25:11.023167 2020] [ssl:warn] [pid 2248:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 12:25:11.054380 2020] [mpm_winnt:notice] [pid 2248:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 12:25:11.054380 2020] [mpm_winnt:notice] [pid 2248:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 12:25:11.054380 2020] [core:notice] [pid 2248:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 12:25:11.054380 2020] [mpm_winnt:notice] [pid 2248:tid 256] AH00418: Parent: Created child process 2604
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 12:25:11.257263 2020] [ssl:warn] [pid 2604:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 12:25:11.272870 2020] [ssl:warn] [pid 2604:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 12:25:11.304083 2020] [mpm_winnt:notice] [pid 2604:tid 268] AH00354: Child: Starting 150 worker threads.
