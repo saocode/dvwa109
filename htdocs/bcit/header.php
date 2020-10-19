@@ -56,7 +56,7 @@ if (is_dir($directory)) {
         closedir($handle);
     }
 }
-echo "<a href=\"$appURL/dvwa\" class=\"w3-bar-item w3-button\">Damn Vulnerable Web App</a>\r\n";
+echo "<a href=\"$appURL/dvwa\" target=\"_blank\" class=\"w3-bar-item w3-button\">Damn Vulnerable Web App</a>\r\n";
 // Output each file as a hyperlink
 foreach ($menuArray as $value) {
     // echo "<a href=\"" . $value . "\">" . $value . "</a><br>";
