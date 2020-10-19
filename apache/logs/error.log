@@ -514,3 +514,34 @@ AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
 AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
 [Mon Oct 19 13:08:19.335338 2020] [ssl:warn] [pid 15504:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Mon Oct 19 13:08:19.373316 2020] [mpm_winnt:notice] [pid 15504:tid 556] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 13:13:41.258914 2020] [ssl:warn] [pid 5732:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 13:13:41.314885 2020] [core:warn] [pid 5732:tid 544] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 13:13:41.321881 2020] [ssl:warn] [pid 5732:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 13:13:41.354883 2020] [mpm_winnt:notice] [pid 5732:tid 544] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 13:13:41.354883 2020] [mpm_winnt:notice] [pid 5732:tid 544] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 13:13:41.354883 2020] [core:notice] [pid 5732:tid 544] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 13:13:41.359858 2020] [mpm_winnt:notice] [pid 5732:tid 544] AH00418: Parent: Created child process 7924
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 13:13:41.902679 2020] [ssl:warn] [pid 7924:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Mon Oct 19 13:13:41.962683 2020] [ssl:warn] [pid 7924:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 13:13:42.001682 2020] [mpm_winnt:notice] [pid 7924:tid 568] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 13:13:42.021676 2020] [php7:notice] [pid 7924:tid 1820] [client ::1:59193] PHP Warning:  include(C:/xampp/htdocs///header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\error.php on line 1
+[Mon Oct 19 13:13:42.021676 2020] [php7:notice] [pid 7924:tid 1820] [client ::1:59193] PHP Stack trace:
+[Mon Oct 19 13:13:42.021676 2020] [php7:notice] [pid 7924:tid 1820] [client ::1:59193] PHP   1. {main}() C:\\xampp\\htdocs\\error.php:0
+[Mon Oct 19 13:13:42.021676 2020] [php7:notice] [pid 7924:tid 1820] [client ::1:59193] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs///header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\error.php on line 1
+[Mon Oct 19 13:13:42.022670 2020] [php7:notice] [pid 7924:tid 1820] [client ::1:59193] PHP Stack trace:
+[Mon Oct 19 13:13:42.022670 2020] [php7:notice] [pid 7924:tid 1820] [client ::1:59193] PHP   1. {main}() C:\\xampp\\htdocs\\error.php:0
+[Mon Oct 19 13:13:42.022670 2020] [php7:notice] [pid 7924:tid 1820] [client ::1:59193] PHP Warning:  include(C:/xampp/htdocs///footer.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\error.php on line 14
+[Mon Oct 19 13:13:42.022670 2020] [php7:notice] [pid 7924:tid 1820] [client ::1:59193] PHP Stack trace:
+[Mon Oct 19 13:13:42.022670 2020] [php7:notice] [pid 7924:tid 1820] [client ::1:59193] PHP   1. {main}() C:\\xampp\\htdocs\\error.php:0
+[Mon Oct 19 13:13:42.023669 2020] [php7:notice] [pid 7924:tid 1820] [client ::1:59193] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs///footer.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\error.php on line 14
+[Mon Oct 19 13:13:42.023669 2020] [php7:notice] [pid 7924:tid 1820] [client ::1:59193] PHP Stack trace:
+[Mon Oct 19 13:13:42.023669 2020] [php7:notice] [pid 7924:tid 1820] [client ::1:59193] PHP   1. {main}() C:\\xampp\\htdocs\\error.php:0
