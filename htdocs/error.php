@@ -10,7 +10,7 @@
   }
 </style>
 
-<div class="blink_me" style="position: absolute; top: 10%; left: 10%;}">
+<div class="blink_me" style="position: absolute; top: 5%; left: 5%;}">
 <pre>                                                
 ███████╗██████╗ ██████╗  ██████╗ ██████╗ 
 ██╔════╝██╔══██╗██╔══██╗██╔═══██╗██╔══██╗
