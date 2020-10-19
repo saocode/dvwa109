@@ -19,7 +19,7 @@ include $include;
 //require __DIR__ . '/vendor/autoload.php';
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <title>Steve's Demo Site</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -56,8 +56,7 @@ if (is_dir($directory)) {
         closedir($handle);
     }
 }
-echo "<a href=\"$appURL/cve\" class=\"w3-bar-item w3-button\">CVE Tool</a>\r\n";
-echo "<a href=\"$appURL/blackjack\" class=\"w3-bar-item w3-button\">Blackjack</a>\r\n";
+echo "<a href=\"$appURL/dvwa\" class=\"w3-bar-item w3-button\">Damn Vulnerable Web App</a>\r\n";
 // Output each file as a hyperlink
 foreach ($menuArray as $value) {
     // echo "<a href=\"" . $value . "\">" . $value . "</a><br>";

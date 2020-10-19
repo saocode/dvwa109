@@ -23,6 +23,7 @@ function checkboxBlank(string $string)
 ?>
 <ul
 	class="w3-ul w3-border w3-left w3-hover-shadow w3-margin-right  w3-margin-bottom"
+	style="max-width: 100%"
 >
 	<li class="w3-black w3-xlarge w3-padding-32">Cookies</li>
 	<li class="w3-padding-16"><h2>Set a Cookie:</h2>
