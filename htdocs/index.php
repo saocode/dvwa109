@@ -1,11 +1,14 @@
-<?php
-	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
-		$uri = 'https://';
-	} else {
-		$uri = 'http://';
-	}
-	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/dvwa/');
-	exit;
-?>
-Something is wrong with the XAMPP installation :-(
+<?php $serverScript = $_SERVER["SCRIPT_NAME"];$appName = substr($serverScript, 1);$slashPos = stripos($appName, "/");$appName = substr($appName, 0, $slashPos);$appURL = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["SERVER_NAME"] . "/" . $appName;$appDir = $_SERVER["DOCUMENT_ROOT"] . "/" . $appName . "/";$include = $appDir . "/header.php";include $include;?>
+<div class="blink_me">
+<pre>                                                
+███████╗██████╗ ██████╗  ██████╗ ██████╗ 
+██╔════╝██╔══██╗██╔══██╗██╔═══██╗██╔══██╗
+█████╗  ██████╔╝██████╔╝██║   ██║██████╔╝
+██╔══╝  ██╔══██╗██╔══██╗██║   ██║██╔══██╗
+███████╗██║  ██║██║  ██║╚██████╔╝██║  ██║
+╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝
+                                         
+
+</pre>                
+</div>                                
+<?php $footer = $appDir . "/footer.php";include $footer;?></body></html>
