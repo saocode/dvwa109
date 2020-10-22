@@ -791,3 +791,661 @@ AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
 AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
 [Mon Oct 19 16:08:53.028067 2020] [ssl:warn] [pid 5184:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Mon Oct 19 16:08:53.059231 2020] [mpm_winnt:notice] [pid 5184:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 16:13:26.498107 2020] [ssl:warn] [pid 2860:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 16:13:26.513689 2020] [core:warn] [pid 2860:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 16:13:26.513689 2020] [ssl:warn] [pid 2860:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 16:13:26.544853 2020] [mpm_winnt:notice] [pid 2860:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 16:13:26.544853 2020] [mpm_winnt:notice] [pid 2860:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 16:13:26.544853 2020] [core:notice] [pid 2860:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 16:13:26.544853 2020] [mpm_winnt:notice] [pid 2860:tid 256] AH00418: Parent: Created child process 5348
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 16:13:26.747421 2020] [ssl:warn] [pid 5348:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 16:13:26.763003 2020] [ssl:warn] [pid 5348:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 16:13:26.794167 2020] [mpm_winnt:notice] [pid 5348:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 16:13:28.322187 2020] [authz_core:error] [pid 5348:tid 1552] [client 174.7.115.156:57544] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 16:17:54.605014 2020] [authz_core:error] [pid 5348:tid 1548] [client 174.7.115.156:57656] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/index.php
+[Mon Oct 19 16:30:57.209856 2020] [php7:error] [pid 5348:tid 1548] [client 92.204.55.4:56044] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Mon Oct 19 16:30:57.521776 2020] [php7:error] [pid 5348:tid 1548] [client 157.245.64.126:53672] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Mon Oct 19 17:18:00.933412 2020] [php7:notice] [pid 5348:tid 1548] [client 174.7.115.156:59238] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 17:18:00.933412 2020] [php7:notice] [pid 5348:tid 1548] [client 174.7.115.156:59238] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 17:18:00.933412 2020] [php7:notice] [pid 5348:tid 1548] [client 174.7.115.156:59238] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 17:18:00.933412 2020] [php7:notice] [pid 5348:tid 1548] [client 174.7.115.156:59238] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 17:18:00.933412 2020] [php7:notice] [pid 5348:tid 1548] [client 174.7.115.156:59238] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 17:18:00.933412 2020] [php7:notice] [pid 5348:tid 1548] [client 174.7.115.156:59238] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 17:24:22.594276 2020] [php7:notice] [pid 5348:tid 1552] [client 174.7.115.156:59494] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 17:24:22.594276 2020] [php7:notice] [pid 5348:tid 1552] [client 174.7.115.156:59494] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 17:24:22.594276 2020] [php7:notice] [pid 5348:tid 1552] [client 174.7.115.156:59494] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 17:24:22.594276 2020] [php7:notice] [pid 5348:tid 1552] [client 174.7.115.156:59494] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 17:24:22.594276 2020] [php7:notice] [pid 5348:tid 1552] [client 174.7.115.156:59494] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 17:24:22.594276 2020] [php7:notice] [pid 5348:tid 1552] [client 174.7.115.156:59494] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 17:48:18.607192 2020] [authz_core:error] [pid 5348:tid 1544] [client 174.7.115.156:60217] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 17:57:44.924039 2020] [php7:notice] [pid 5348:tid 1528] [client 70.68.152.42:61312] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 17:57:44.924039 2020] [php7:notice] [pid 5348:tid 1528] [client 70.68.152.42:61312] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 17:57:44.939649 2020] [php7:notice] [pid 5348:tid 1528] [client 70.68.152.42:61312] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 17:57:44.939649 2020] [php7:notice] [pid 5348:tid 1528] [client 70.68.152.42:61312] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 17:57:44.939649 2020] [php7:notice] [pid 5348:tid 1528] [client 70.68.152.42:61312] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 17:57:44.939649 2020] [php7:notice] [pid 5348:tid 1528] [client 70.68.152.42:61312] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:14:10.397926 2020] [php7:error] [pid 5348:tid 1524] [client 185.85.190.132:54146] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Mon Oct 19 18:25:47.881748 2020] [php7:notice] [pid 5348:tid 1464] [client 50.69.200.4:62795] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:25:47.881748 2020] [php7:notice] [pid 5348:tid 1464] [client 50.69.200.4:62795] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:25:47.881748 2020] [php7:notice] [pid 5348:tid 1464] [client 50.69.200.4:62795] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:25:47.881748 2020] [php7:notice] [pid 5348:tid 1464] [client 50.69.200.4:62795] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:25:47.881748 2020] [php7:notice] [pid 5348:tid 1464] [client 50.69.200.4:62795] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:25:47.881748 2020] [php7:notice] [pid 5348:tid 1464] [client 50.69.200.4:62795] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:26:35.974768 2020] [php7:notice] [pid 5348:tid 1468] [client 50.69.200.4:62794] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:26:35.974768 2020] [php7:notice] [pid 5348:tid 1468] [client 50.69.200.4:62794] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:26:35.974768 2020] [php7:notice] [pid 5348:tid 1468] [client 50.69.200.4:62794] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:26:35.974768 2020] [php7:notice] [pid 5348:tid 1468] [client 50.69.200.4:62794] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:26:35.974768 2020] [php7:notice] [pid 5348:tid 1468] [client 50.69.200.4:62794] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:26:35.974768 2020] [php7:notice] [pid 5348:tid 1468] [client 50.69.200.4:62794] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:26:44.988123 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62801] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:26:44.988123 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62801] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:26:44.988123 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62801] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:26:44.988123 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62801] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:26:44.988123 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62801] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:26:44.988123 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62801] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:26:49.125913 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.228.28:57770] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:26:49.125913 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.228.28:57770] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:26:49.125913 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.228.28:57770] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:26:49.125913 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.228.28:57770] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:26:49.125913 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.228.28:57770] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:26:49.125913 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.228.28:57770] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:28:02.354052 2020] [php7:notice] [pid 5348:tid 1468] [client 50.69.200.4:62809] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:28:02.354052 2020] [php7:notice] [pid 5348:tid 1468] [client 50.69.200.4:62809] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:28:02.354052 2020] [php7:notice] [pid 5348:tid 1468] [client 50.69.200.4:62809] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:28:02.354052 2020] [php7:notice] [pid 5348:tid 1468] [client 50.69.200.4:62809] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:28:02.354052 2020] [php7:notice] [pid 5348:tid 1468] [client 50.69.200.4:62809] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:28:02.354052 2020] [php7:notice] [pid 5348:tid 1468] [client 50.69.200.4:62809] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:28:17.927365 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62810] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:28:17.927365 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62810] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:28:17.927365 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62810] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:28:17.927365 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62810] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:28:17.927365 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62810] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:28:17.927365 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62810] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:28:22.676064 2020] [php7:notice] [pid 5348:tid 1468] [client 24.207.66.68:61182] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:28:22.676064 2020] [php7:notice] [pid 5348:tid 1468] [client 24.207.66.68:61182] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:28:22.676064 2020] [php7:notice] [pid 5348:tid 1468] [client 24.207.66.68:61182] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:28:22.676064 2020] [php7:notice] [pid 5348:tid 1468] [client 24.207.66.68:61182] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:28:22.676064 2020] [php7:notice] [pid 5348:tid 1468] [client 24.207.66.68:61182] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:28:22.676064 2020] [php7:notice] [pid 5348:tid 1468] [client 24.207.66.68:61182] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:17.221694 2020] [php7:notice] [pid 5348:tid 1468] [client 174.7.115.156:60912] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:17.221694 2020] [php7:notice] [pid 5348:tid 1468] [client 174.7.115.156:60912] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:17.221694 2020] [php7:notice] [pid 5348:tid 1468] [client 174.7.115.156:60912] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:17.221694 2020] [php7:notice] [pid 5348:tid 1468] [client 174.7.115.156:60912] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:17.221694 2020] [php7:notice] [pid 5348:tid 1468] [client 174.7.115.156:60912] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:17.221694 2020] [php7:notice] [pid 5348:tid 1468] [client 174.7.115.156:60912] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:20.643177 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62824] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:20.643177 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62824] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:20.643177 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62824] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:20.643177 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62824] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:20.643177 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62824] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:20.643177 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62824] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:29.185528 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62823] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:29.185528 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62823] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:29.185528 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62823] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:29.185528 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62823] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:29.185528 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62823] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:29.185528 2020] [php7:notice] [pid 5348:tid 1492] [client 50.69.200.4:62823] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:38.620037 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:38.620037 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:38.620037 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:38.620037 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:38.620037 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:38.620037 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:43.259703 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:43.259703 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:43.259703 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:43.259703 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:43.259703 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:43.259703 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:46.674550 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:46.674550 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:46.674550 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:46.674550 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:46.674550 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:46.674550 2020] [php7:notice] [pid 5348:tid 1544] [client 50.69.200.4:62825] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:46.690165 2020] [php7:notice] [pid 5348:tid 1476] [client 24.207.66.68:61257] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:46.690165 2020] [php7:notice] [pid 5348:tid 1476] [client 24.207.66.68:61257] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:46.690165 2020] [php7:notice] [pid 5348:tid 1476] [client 24.207.66.68:61257] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:46.690165 2020] [php7:notice] [pid 5348:tid 1476] [client 24.207.66.68:61257] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:46.690165 2020] [php7:notice] [pid 5348:tid 1476] [client 24.207.66.68:61257] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:46.690165 2020] [php7:notice] [pid 5348:tid 1476] [client 24.207.66.68:61257] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:47.205466 2020] [php7:notice] [pid 5348:tid 1472] [client 174.7.115.156:60915] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:47.205466 2020] [php7:notice] [pid 5348:tid 1472] [client 174.7.115.156:60915] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:47.205466 2020] [php7:notice] [pid 5348:tid 1472] [client 174.7.115.156:60915] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:47.205466 2020] [php7:notice] [pid 5348:tid 1472] [client 174.7.115.156:60915] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:47.205466 2020] [php7:notice] [pid 5348:tid 1472] [client 174.7.115.156:60915] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:47.205466 2020] [php7:notice] [pid 5348:tid 1472] [client 174.7.115.156:60915] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:50.627147 2020] [php7:notice] [pid 5348:tid 1552] [client 154.5.129.228:59283] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:50.627147 2020] [php7:notice] [pid 5348:tid 1552] [client 154.5.129.228:59283] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:50.627147 2020] [php7:notice] [pid 5348:tid 1552] [client 154.5.129.228:59283] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:50.627147 2020] [php7:notice] [pid 5348:tid 1552] [client 154.5.129.228:59283] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:50.627147 2020] [php7:notice] [pid 5348:tid 1552] [client 154.5.129.228:59283] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:50.627147 2020] [php7:notice] [pid 5348:tid 1552] [client 154.5.129.228:59283] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:52.532201 2020] [php7:notice] [pid 5348:tid 1548] [client 50.98.62.244:60815] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:52.532201 2020] [php7:notice] [pid 5348:tid 1548] [client 50.98.62.244:60815] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:52.532201 2020] [php7:notice] [pid 5348:tid 1548] [client 50.98.62.244:60815] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:52.532201 2020] [php7:notice] [pid 5348:tid 1548] [client 50.98.62.244:60815] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:52.532201 2020] [php7:notice] [pid 5348:tid 1548] [client 50.98.62.244:60815] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:52.532201 2020] [php7:notice] [pid 5348:tid 1548] [client 50.98.62.244:60815] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:29:55.234607 2020] [php7:notice] [pid 5348:tid 1532] [client 24.207.66.68:61258] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:55.234607 2020] [php7:notice] [pid 5348:tid 1532] [client 24.207.66.68:61258] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:55.234607 2020] [php7:notice] [pid 5348:tid 1532] [client 24.207.66.68:61258] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:55.234607 2020] [php7:notice] [pid 5348:tid 1532] [client 24.207.66.68:61258] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:55.234607 2020] [php7:notice] [pid 5348:tid 1532] [client 24.207.66.68:61258] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:29:55.234607 2020] [php7:notice] [pid 5348:tid 1532] [client 24.207.66.68:61258] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:30:07.902438 2020] [php7:notice] [pid 5348:tid 1460] [client 70.68.152.42:61565] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:30:07.902438 2020] [php7:notice] [pid 5348:tid 1460] [client 70.68.152.42:61565] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:30:07.902438 2020] [php7:notice] [pid 5348:tid 1460] [client 70.68.152.42:61565] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:30:07.902438 2020] [php7:notice] [pid 5348:tid 1460] [client 70.68.152.42:61565] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:30:07.902438 2020] [php7:notice] [pid 5348:tid 1460] [client 70.68.152.42:61565] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:30:07.902438 2020] [php7:notice] [pid 5348:tid 1460] [client 70.68.152.42:61565] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:30:37.019905 2020] [php7:notice] [pid 5348:tid 1540] [client 24.84.244.243:60367] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:30:37.019905 2020] [php7:notice] [pid 5348:tid 1540] [client 24.84.244.243:60367] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:30:37.019905 2020] [php7:notice] [pid 5348:tid 1540] [client 24.84.244.243:60367] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:30:37.019905 2020] [php7:notice] [pid 5348:tid 1540] [client 24.84.244.243:60367] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:30:37.019905 2020] [php7:notice] [pid 5348:tid 1540] [client 24.84.244.243:60367] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:30:37.019905 2020] [php7:notice] [pid 5348:tid 1540] [client 24.84.244.243:60367] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:31:38.417816 2020] [php7:notice] [pid 5348:tid 1548] [client 50.69.200.4:62839] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:31:38.417816 2020] [php7:notice] [pid 5348:tid 1548] [client 50.69.200.4:62839] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:31:38.417816 2020] [php7:notice] [pid 5348:tid 1548] [client 50.69.200.4:62839] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:31:38.417816 2020] [php7:notice] [pid 5348:tid 1548] [client 50.69.200.4:62839] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:31:38.417816 2020] [php7:notice] [pid 5348:tid 1548] [client 50.69.200.4:62839] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:31:38.417816 2020] [php7:notice] [pid 5348:tid 1548] [client 50.69.200.4:62839] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:31:42.386004 2020] [authz_core:error] [pid 5348:tid 1548] [client 50.69.200.4:62839] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:32:32.530966 2020] [php7:notice] [pid 5348:tid 1540] [client 154.5.129.228:59382] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:32:32.530966 2020] [php7:notice] [pid 5348:tid 1540] [client 154.5.129.228:59382] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:32:32.530966 2020] [php7:notice] [pid 5348:tid 1540] [client 154.5.129.228:59382] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:32:32.530966 2020] [php7:notice] [pid 5348:tid 1540] [client 154.5.129.228:59382] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:32:32.530966 2020] [php7:notice] [pid 5348:tid 1540] [client 154.5.129.228:59382] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:32:32.530966 2020] [php7:notice] [pid 5348:tid 1540] [client 154.5.129.228:59382] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:32:38.259756 2020] [php7:notice] [pid 5348:tid 1480] [client 50.98.62.244:60835] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:32:38.259756 2020] [php7:notice] [pid 5348:tid 1480] [client 50.98.62.244:60835] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:32:38.259756 2020] [php7:notice] [pid 5348:tid 1480] [client 50.98.62.244:60835] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:32:38.259756 2020] [php7:notice] [pid 5348:tid 1480] [client 50.98.62.244:60835] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:32:38.259756 2020] [php7:notice] [pid 5348:tid 1480] [client 50.98.62.244:60835] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:32:38.259756 2020] [php7:notice] [pid 5348:tid 1480] [client 50.98.62.244:60835] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:33:18.818999 2020] [php7:notice] [pid 5348:tid 1464] [client 50.69.200.4:62864] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:33:18.818999 2020] [php7:notice] [pid 5348:tid 1464] [client 50.69.200.4:62864] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:33:18.818999 2020] [php7:notice] [pid 5348:tid 1464] [client 50.69.200.4:62864] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:33:18.818999 2020] [php7:notice] [pid 5348:tid 1464] [client 50.69.200.4:62864] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:33:18.818999 2020] [php7:notice] [pid 5348:tid 1464] [client 50.69.200.4:62864] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:33:18.818999 2020] [php7:notice] [pid 5348:tid 1464] [client 50.69.200.4:62864] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:34:46.447033 2020] [php7:notice] [pid 5348:tid 1504] [client 50.69.200.4:62885] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:34:46.447033 2020] [php7:notice] [pid 5348:tid 1504] [client 50.69.200.4:62885] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:34:46.447033 2020] [php7:notice] [pid 5348:tid 1504] [client 50.69.200.4:62885] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:34:46.447033 2020] [php7:notice] [pid 5348:tid 1504] [client 50.69.200.4:62885] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:34:46.447033 2020] [php7:notice] [pid 5348:tid 1504] [client 50.69.200.4:62885] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:34:46.447033 2020] [php7:notice] [pid 5348:tid 1504] [client 50.69.200.4:62885] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:34:51.104236 2020] [php7:notice] [pid 5348:tid 1504] [client 50.69.200.4:62885] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:34:51.104236 2020] [php7:notice] [pid 5348:tid 1504] [client 50.69.200.4:62885] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:34:51.104236 2020] [php7:notice] [pid 5348:tid 1504] [client 50.69.200.4:62885] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:34:51.104236 2020] [php7:notice] [pid 5348:tid 1504] [client 50.69.200.4:62885] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:34:51.104236 2020] [php7:notice] [pid 5348:tid 1504] [client 50.69.200.4:62885] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:34:51.104236 2020] [php7:notice] [pid 5348:tid 1504] [client 50.69.200.4:62885] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:35:50.789048 2020] [php7:notice] [pid 5348:tid 1552] [client 50.69.200.4:62898] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:35:50.789048 2020] [php7:notice] [pid 5348:tid 1552] [client 50.69.200.4:62898] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:35:50.789048 2020] [php7:notice] [pid 5348:tid 1552] [client 50.69.200.4:62898] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:35:50.789048 2020] [php7:notice] [pid 5348:tid 1552] [client 50.69.200.4:62898] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:35:50.789048 2020] [php7:notice] [pid 5348:tid 1552] [client 50.69.200.4:62898] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:35:50.789048 2020] [php7:notice] [pid 5348:tid 1552] [client 50.69.200.4:62898] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:36:29.546701 2020] [authz_core:error] [pid 5348:tid 1552] [client 154.5.175.124:57645] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:41:16.416566 2020] [php7:notice] [pid 5348:tid 1552] [client 24.84.244.243:60436] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:16.416566 2020] [php7:notice] [pid 5348:tid 1552] [client 24.84.244.243:60436] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:16.416566 2020] [php7:notice] [pid 5348:tid 1552] [client 24.84.244.243:60436] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:16.416566 2020] [php7:notice] [pid 5348:tid 1552] [client 24.84.244.243:60436] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:16.416566 2020] [php7:notice] [pid 5348:tid 1552] [client 24.84.244.243:60436] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:16.416566 2020] [php7:notice] [pid 5348:tid 1552] [client 24.84.244.243:60436] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:20.045125 2020] [php7:notice] [pid 5348:tid 1552] [client 24.84.244.243:60436] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:20.045125 2020] [php7:notice] [pid 5348:tid 1552] [client 24.84.244.243:60436] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:20.045125 2020] [php7:notice] [pid 5348:tid 1552] [client 24.84.244.243:60436] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:20.045125 2020] [php7:notice] [pid 5348:tid 1552] [client 24.84.244.243:60436] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:20.045125 2020] [php7:notice] [pid 5348:tid 1552] [client 24.84.244.243:60436] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:20.045125 2020] [php7:notice] [pid 5348:tid 1552] [client 24.84.244.243:60436] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:25.387441 2020] [php7:notice] [pid 5348:tid 1464] [client 154.5.175.124:57677] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:41:25.387441 2020] [php7:notice] [pid 5348:tid 1464] [client 154.5.175.124:57677] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:41:25.387441 2020] [php7:notice] [pid 5348:tid 1464] [client 154.5.175.124:57677] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:41:25.387441 2020] [php7:notice] [pid 5348:tid 1464] [client 154.5.175.124:57677] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:41:25.387441 2020] [php7:notice] [pid 5348:tid 1464] [client 154.5.175.124:57677] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:41:25.387441 2020] [php7:notice] [pid 5348:tid 1464] [client 154.5.175.124:57677] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:41:37.320305 2020] [php7:notice] [pid 5348:tid 1552] [client 174.7.115.156:60956] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:37.320305 2020] [php7:notice] [pid 5348:tid 1552] [client 174.7.115.156:60956] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:37.320305 2020] [php7:notice] [pid 5348:tid 1552] [client 174.7.115.156:60956] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:37.320305 2020] [php7:notice] [pid 5348:tid 1552] [client 174.7.115.156:60956] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:37.320305 2020] [php7:notice] [pid 5348:tid 1552] [client 174.7.115.156:60956] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:37.320305 2020] [php7:notice] [pid 5348:tid 1552] [client 174.7.115.156:60956] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:44.490563 2020] [php7:notice] [pid 5348:tid 1468] [client 154.5.175.124:57687] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:44.490563 2020] [php7:notice] [pid 5348:tid 1468] [client 154.5.175.124:57687] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:44.490563 2020] [php7:notice] [pid 5348:tid 1468] [client 154.5.175.124:57687] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:44.490563 2020] [php7:notice] [pid 5348:tid 1468] [client 154.5.175.124:57687] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:44.490563 2020] [php7:notice] [pid 5348:tid 1468] [client 154.5.175.124:57687] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:44.490563 2020] [php7:notice] [pid 5348:tid 1468] [client 154.5.175.124:57687] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:46.036457 2020] [php7:notice] [pid 5348:tid 1552] [client 154.5.129.228:59491] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:46.036457 2020] [php7:notice] [pid 5348:tid 1552] [client 154.5.129.228:59491] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:46.036457 2020] [php7:notice] [pid 5348:tid 1552] [client 154.5.129.228:59491] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:46.036457 2020] [php7:notice] [pid 5348:tid 1552] [client 154.5.129.228:59491] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:46.036457 2020] [php7:notice] [pid 5348:tid 1552] [client 154.5.129.228:59491] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:46.036457 2020] [php7:notice] [pid 5348:tid 1552] [client 154.5.129.228:59491] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:51.566154 2020] [php7:notice] [pid 5348:tid 1548] [client 154.5.175.124:57688] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:51.566154 2020] [php7:notice] [pid 5348:tid 1548] [client 154.5.175.124:57688] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:51.566154 2020] [php7:notice] [pid 5348:tid 1548] [client 154.5.175.124:57688] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:51.566154 2020] [php7:notice] [pid 5348:tid 1548] [client 154.5.175.124:57688] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:51.566154 2020] [php7:notice] [pid 5348:tid 1548] [client 154.5.175.124:57688] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:41:51.566154 2020] [php7:notice] [pid 5348:tid 1548] [client 154.5.175.124:57688] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:42:10.059312 2020] [php7:notice] [pid 5348:tid 1464] [client 174.7.115.156:60955] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:42:10.059312 2020] [php7:notice] [pid 5348:tid 1464] [client 174.7.115.156:60955] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:42:10.059312 2020] [php7:notice] [pid 5348:tid 1464] [client 174.7.115.156:60955] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:42:10.059312 2020] [php7:notice] [pid 5348:tid 1464] [client 174.7.115.156:60955] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:42:10.059312 2020] [php7:notice] [pid 5348:tid 1464] [client 174.7.115.156:60955] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:42:10.059312 2020] [php7:notice] [pid 5348:tid 1464] [client 174.7.115.156:60955] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:42:52.392822 2020] [php7:notice] [pid 5348:tid 1480] [client 99.199.137.157:50559] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:42:52.392822 2020] [php7:notice] [pid 5348:tid 1480] [client 99.199.137.157:50559] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:42:52.392822 2020] [php7:notice] [pid 5348:tid 1480] [client 99.199.137.157:50559] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:42:52.392822 2020] [php7:notice] [pid 5348:tid 1480] [client 99.199.137.157:50559] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:42:52.392822 2020] [php7:notice] [pid 5348:tid 1480] [client 99.199.137.157:50559] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:42:52.392822 2020] [php7:notice] [pid 5348:tid 1480] [client 99.199.137.157:50559] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP Stack trace:
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP Stack trace:
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP Notice:  Undefined index: cookie_name in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 9
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP Stack trace:
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP Notice:  Undefined index: cookie_value in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 10
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP Stack trace:
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP Warning:  Cookie names must not be empty in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 12
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP Stack trace:
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP   2. setcookie() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:12
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:12) in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 14
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP Stack trace:
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0
+[Mon Oct 19 18:42:53.048656 2020] [php7:notice] [pid 5348:tid 1552] [client 35.245.188.175:36574] PHP   2. header() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:14
+[Mon Oct 19 18:43:28.084060 2020] [php7:notice] [pid 5348:tid 1468] [client 154.5.175.124:57699] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:43:28.084060 2020] [php7:notice] [pid 5348:tid 1468] [client 154.5.175.124:57699] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:43:28.084060 2020] [php7:notice] [pid 5348:tid 1468] [client 154.5.175.124:57699] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:43:28.084060 2020] [php7:notice] [pid 5348:tid 1468] [client 154.5.175.124:57699] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:43:28.084060 2020] [php7:notice] [pid 5348:tid 1468] [client 154.5.175.124:57699] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:43:28.084060 2020] [php7:notice] [pid 5348:tid 1468] [client 154.5.175.124:57699] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:45:26.631623 2020] [php7:notice] [pid 5348:tid 1456] [client 70.68.228.28:57850] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:45:26.631623 2020] [php7:notice] [pid 5348:tid 1456] [client 70.68.228.28:57850] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:45:26.631623 2020] [php7:notice] [pid 5348:tid 1456] [client 70.68.228.28:57850] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:45:26.631623 2020] [php7:notice] [pid 5348:tid 1456] [client 70.68.228.28:57850] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:45:26.631623 2020] [php7:notice] [pid 5348:tid 1456] [client 70.68.228.28:57850] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:45:26.631623 2020] [php7:notice] [pid 5348:tid 1456] [client 70.68.228.28:57850] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:47:31.481128 2020] [php7:notice] [pid 5348:tid 1484] [client 50.69.200.4:62966] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:47:31.481128 2020] [php7:notice] [pid 5348:tid 1484] [client 50.69.200.4:62966] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:47:31.481128 2020] [php7:notice] [pid 5348:tid 1484] [client 50.69.200.4:62966] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:47:31.481128 2020] [php7:notice] [pid 5348:tid 1484] [client 50.69.200.4:62966] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:47:31.481128 2020] [php7:notice] [pid 5348:tid 1484] [client 50.69.200.4:62966] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:47:31.481128 2020] [php7:notice] [pid 5348:tid 1484] [client 50.69.200.4:62966] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:58:28.990001 2020] [php7:notice] [pid 5348:tid 1516] [client 174.7.115.156:61025] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:58:28.990001 2020] [php7:notice] [pid 5348:tid 1516] [client 174.7.115.156:61025] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:58:28.990001 2020] [php7:notice] [pid 5348:tid 1516] [client 174.7.115.156:61025] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:58:28.990001 2020] [php7:notice] [pid 5348:tid 1516] [client 174.7.115.156:61025] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:58:28.990001 2020] [php7:notice] [pid 5348:tid 1516] [client 174.7.115.156:61025] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:58:28.990001 2020] [php7:notice] [pid 5348:tid 1516] [client 174.7.115.156:61025] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 18:58:42.128526 2020] [php7:notice] [pid 5348:tid 1480] [client 154.5.175.124:57816] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:58:42.128526 2020] [php7:notice] [pid 5348:tid 1480] [client 154.5.175.124:57816] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:58:42.128526 2020] [php7:notice] [pid 5348:tid 1480] [client 154.5.175.124:57816] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:58:42.128526 2020] [php7:notice] [pid 5348:tid 1480] [client 154.5.175.124:57816] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:58:42.128526 2020] [php7:notice] [pid 5348:tid 1480] [client 154.5.175.124:57816] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:58:42.128526 2020] [php7:notice] [pid 5348:tid 1480] [client 154.5.175.124:57816] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:59:10.471858 2020] [php7:notice] [pid 5348:tid 1516] [client 50.98.62.244:61167] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:59:10.471858 2020] [php7:notice] [pid 5348:tid 1516] [client 50.98.62.244:61167] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:59:10.471858 2020] [php7:notice] [pid 5348:tid 1516] [client 50.98.62.244:61167] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:59:10.471858 2020] [php7:notice] [pid 5348:tid 1516] [client 50.98.62.244:61167] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:59:10.471858 2020] [php7:notice] [pid 5348:tid 1516] [client 50.98.62.244:61167] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 18:59:10.471858 2020] [php7:notice] [pid 5348:tid 1516] [client 50.98.62.244:61167] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:12.354666 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.152.42:61851] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:12.354666 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.152.42:61851] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:12.354666 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.152.42:61851] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:12.354666 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.152.42:61851] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:12.354666 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.152.42:61851] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:12.354666 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.152.42:61851] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:21.137051 2020] [php7:notice] [pid 5348:tid 1456] [client 50.69.200.4:63074] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:21.137051 2020] [php7:notice] [pid 5348:tid 1456] [client 50.69.200.4:63074] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:21.137051 2020] [php7:notice] [pid 5348:tid 1456] [client 50.69.200.4:63074] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:21.137051 2020] [php7:notice] [pid 5348:tid 1456] [client 50.69.200.4:63074] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:21.137051 2020] [php7:notice] [pid 5348:tid 1456] [client 50.69.200.4:63074] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:21.137051 2020] [php7:notice] [pid 5348:tid 1456] [client 50.69.200.4:63074] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:27.697975 2020] [php7:notice] [pid 5348:tid 1436] [client 174.7.115.156:61071] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:27.697975 2020] [php7:notice] [pid 5348:tid 1436] [client 174.7.115.156:61071] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:27.697975 2020] [php7:notice] [pid 5348:tid 1436] [client 174.7.115.156:61071] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:27.713592 2020] [php7:notice] [pid 5348:tid 1436] [client 174.7.115.156:61071] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:27.713592 2020] [php7:notice] [pid 5348:tid 1436] [client 174.7.115.156:61071] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:27.713592 2020] [php7:notice] [pid 5348:tid 1436] [client 174.7.115.156:61071] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:41.242448 2020] [php7:notice] [pid 5348:tid 1436] [client 50.69.200.4:63095] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:41.242448 2020] [php7:notice] [pid 5348:tid 1436] [client 50.69.200.4:63095] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:41.242448 2020] [php7:notice] [pid 5348:tid 1436] [client 50.69.200.4:63095] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:41.242448 2020] [php7:notice] [pid 5348:tid 1436] [client 50.69.200.4:63095] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:41.242448 2020] [php7:notice] [pid 5348:tid 1436] [client 50.69.200.4:63095] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:41.242448 2020] [php7:notice] [pid 5348:tid 1436] [client 50.69.200.4:63095] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP Notice:  Undefined index: webDelete in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:9) in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 18, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:00:42.335610 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50687] PHP   2. header() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:18, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:01:18.335774 2020] [php7:notice] [pid 5348:tid 1516] [client 174.7.115.156:61076] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:01:18.335774 2020] [php7:notice] [pid 5348:tid 1516] [client 174.7.115.156:61076] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:01:18.335774 2020] [php7:notice] [pid 5348:tid 1516] [client 174.7.115.156:61076] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:01:18.335774 2020] [php7:notice] [pid 5348:tid 1516] [client 174.7.115.156:61076] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:01:18.335774 2020] [php7:notice] [pid 5348:tid 1516] [client 174.7.115.156:61076] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:01:18.335774 2020] [php7:notice] [pid 5348:tid 1516] [client 174.7.115.156:61076] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:01:23.116405 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.152.42:61861] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:01:23.116405 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.152.42:61861] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:01:23.116405 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.152.42:61861] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:01:23.116405 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.152.42:61861] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:01:23.116405 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.152.42:61861] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:01:23.116405 2020] [php7:notice] [pid 5348:tid 1552] [client 70.68.152.42:61861] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:02:36.928262 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50704] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:02:36.928262 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50704] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:02:36.928262 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50704] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:02:36.928262 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50704] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:02:36.928262 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50704] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:02:36.928262 2020] [php7:notice] [pid 5348:tid 1456] [client 99.199.137.157:50704] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:02:55.555936 2020] [php7:notice] [pid 5348:tid 1552] [client 99.199.137.157:50709] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:02:55.555936 2020] [php7:notice] [pid 5348:tid 1552] [client 99.199.137.157:50709] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:02:55.555936 2020] [php7:notice] [pid 5348:tid 1552] [client 99.199.137.157:50709] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:02:55.555936 2020] [php7:notice] [pid 5348:tid 1552] [client 99.199.137.157:50709] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:02:55.555936 2020] [php7:notice] [pid 5348:tid 1552] [client 99.199.137.157:50709] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:02:55.555936 2020] [php7:notice] [pid 5348:tid 1552] [client 99.199.137.157:50709] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:05:30.180763 2020] [php7:notice] [pid 5348:tid 1476] [client 174.7.115.156:61088] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:05:30.180763 2020] [php7:notice] [pid 5348:tid 1476] [client 174.7.115.156:61088] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:05:30.180763 2020] [php7:notice] [pid 5348:tid 1476] [client 174.7.115.156:61088] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:05:30.180763 2020] [php7:notice] [pid 5348:tid 1476] [client 174.7.115.156:61088] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:05:30.180763 2020] [php7:notice] [pid 5348:tid 1476] [client 174.7.115.156:61088] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:05:30.180763 2020] [php7:notice] [pid 5348:tid 1476] [client 174.7.115.156:61088] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:05:48.346773 2020] [php7:notice] [pid 5348:tid 1528] [client 70.68.152.42:61882] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:05:48.346773 2020] [php7:notice] [pid 5348:tid 1528] [client 70.68.152.42:61882] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:05:48.346773 2020] [php7:notice] [pid 5348:tid 1528] [client 70.68.152.42:61882] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:05:48.346773 2020] [php7:notice] [pid 5348:tid 1528] [client 70.68.152.42:61882] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:05:48.346773 2020] [php7:notice] [pid 5348:tid 1528] [client 70.68.152.42:61882] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:05:48.346773 2020] [php7:notice] [pid 5348:tid 1528] [client 70.68.152.42:61882] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:12:22.377973 2020] [authz_core:error] [pid 5348:tid 1552] [client 50.69.200.4:63172] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:12:29.330288 2020] [authz_core:error] [pid 5348:tid 1516] [client 154.5.129.228:59891] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:13:20.509613 2020] [authz_core:error] [pid 5348:tid 1480] [client 154.5.129.228:59890] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:13:26.616679 2020] [authz_core:error] [pid 5348:tid 1516] [client 154.5.129.228:59914] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:13:55.212459 2020] [php7:notice] [pid 5348:tid 1520] [client 50.69.200.4:63178] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:13:55.212459 2020] [php7:notice] [pid 5348:tid 1520] [client 50.69.200.4:63178] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:13:55.212459 2020] [php7:notice] [pid 5348:tid 1520] [client 50.69.200.4:63178] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:13:55.212459 2020] [php7:notice] [pid 5348:tid 1520] [client 50.69.200.4:63178] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:13:55.213435 2020] [php7:notice] [pid 5348:tid 1520] [client 50.69.200.4:63178] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:13:55.213435 2020] [php7:notice] [pid 5348:tid 1520] [client 50.69.200.4:63178] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:16:05.362619 2020] [authz_core:error] [pid 5348:tid 1480] [client 154.5.129.228:59975] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:16:36.986271 2020] [authz_core:error] [pid 5348:tid 1436] [client 24.84.244.243:60833] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:17:13.982206 2020] [authz_core:error] [pid 5348:tid 1456] [client 174.7.115.156:61134] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:17:21.232445 2020] [authz_core:error] [pid 5348:tid 1516] [client 50.69.200.4:63204] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:17:22.794155 2020] [authz_core:error] [pid 5348:tid 1484] [client 50.98.62.244:61303] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:17:27.855072 2020] [authz_core:error] [pid 5348:tid 1528] [client 154.5.175.124:57970] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:18:03.245384 2020] [authz_core:error] [pid 5348:tid 1476] [client 50.69.200.4:63205] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 19:18:33.927092 2020] [authz_core:error] [pid 5348:tid 1484] [client 50.69.200.4:63208] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 19:18:35.567842 2020] [authz_core:error] [pid 5348:tid 1516] [client 154.5.129.228:59998] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:20:20.258653 2020] [authz_core:error] [pid 5348:tid 1548] [client 35.247.29.77:62296] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:20:29.254959 2020] [authz_core:error] [pid 5348:tid 1528] [client 70.68.152.42:61963] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:20:33.816069 2020] [php7:notice] [pid 5348:tid 1504] [client 209.17.97.18:60246] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Mon Oct 19 19:20:33.816069 2020] [php7:notice] [pid 5348:tid 1504] [client 209.17.97.18:60246] PHP Stack trace:
+[Mon Oct 19 19:20:33.816069 2020] [php7:notice] [pid 5348:tid 1504] [client 209.17.97.18:60246] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Mon Oct 19 19:21:12.613325 2020] [authz_core:error] [pid 5348:tid 1508] [client 99.199.137.157:50799] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:21:13.987612 2020] [authz_core:error] [pid 5348:tid 1528] [client 35.245.188.175:36571] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 19:21:49.284530 2020] [authz_core:error] [pid 5348:tid 1436] [client 99.199.137.157:50807] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:23:05.349402 2020] [authz_core:error] [pid 5348:tid 1456] [client 174.7.152.60:52527] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:23:06.646581 2020] [authz_core:error] [pid 5348:tid 1484] [client 154.5.129.228:60042] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:23:12.659070 2020] [authz_core:error] [pid 5348:tid 1456] [client 50.98.50.237:55508] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:24:46.546892 2020] [ssl:warn] [pid 1344:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 19:24:46.578126 2020] [core:warn] [pid 1344:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 19:24:46.578126 2020] [ssl:warn] [pid 1344:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 19:24:46.609360 2020] [mpm_winnt:notice] [pid 1344:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 19:24:46.609360 2020] [mpm_winnt:notice] [pid 1344:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 19:24:46.609360 2020] [core:notice] [pid 1344:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 19:24:46.609360 2020] [mpm_winnt:notice] [pid 1344:tid 256] AH00418: Parent: Created child process 3744
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 19:24:46.796763 2020] [ssl:warn] [pid 3744:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 19:24:46.827997 2020] [ssl:warn] [pid 3744:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 19:24:46.843613 2020] [mpm_winnt:notice] [pid 3744:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 19:25:01.951988 2020] [authz_core:error] [pid 3744:tid 1520] [client 70.68.228.28:58010] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:25:07.090924 2020] [authz_core:error] [pid 3744:tid 1524] [client 99.199.137.157:50874] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:25:07.793684 2020] [authz_core:error] [pid 3744:tid 1524] [client 99.199.137.157:50874] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:25:08.121639 2020] [authz_core:error] [pid 3744:tid 1524] [client 99.199.137.157:50874] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:25:08.355893 2020] [authz_core:error] [pid 3744:tid 1524] [client 99.199.137.157:50874] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:25:08.605763 2020] [authz_core:error] [pid 3744:tid 1524] [client 99.199.137.157:50874] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:25:09.574987 2020] [authz_core:error] [pid 3744:tid 1540] [client 174.7.152.60:52564] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:25:10.012260 2020] [authz_core:error] [pid 3744:tid 1524] [client 99.199.137.157:50874] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:25:10.152812 2020] [authz_core:error] [pid 3744:tid 1520] [client 50.98.62.244:61397] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:25:10.246514 2020] [authz_core:error] [pid 3744:tid 1524] [client 99.199.137.157:50874] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:25:10.512001 2020] [authz_core:error] [pid 3744:tid 1524] [client 99.199.137.157:50874] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:25:10.777488 2020] [authz_core:error] [pid 3744:tid 1524] [client 99.199.137.157:50874] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:25:13.573889 2020] [authz_core:error] [pid 3744:tid 1532] [client 50.98.50.237:55595] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:25:15.183406 2020] [authz_core:error] [pid 3744:tid 1552] [client 154.5.175.124:58050] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:25:39.837610 2020] [authz_core:error] [pid 3744:tid 1552] [client 45.58.23.185:61665] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Mon Oct 19 19:25:43.664727 2020] [authz_core:error] [pid 3744:tid 1532] [client 70.68.228.28:58027] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:25:45.866710 2020] [ssl:warn] [pid 3528:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 19:25:45.882327 2020] [core:warn] [pid 3528:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 19:25:45.882327 2020] [ssl:warn] [pid 3528:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 19:25:45.904775 2020] [mpm_winnt:notice] [pid 3528:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 19:25:45.904775 2020] [mpm_winnt:notice] [pid 3528:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 19:25:45.904775 2020] [core:notice] [pid 3528:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 19:25:45.906727 2020] [mpm_winnt:notice] [pid 3528:tid 256] AH00418: Parent: Created child process 4564
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 19:25:46.109746 2020] [ssl:warn] [pid 4564:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 19:25:46.125363 2020] [ssl:warn] [pid 4564:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 19:25:46.156597 2020] [mpm_winnt:notice] [pid 4564:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 19:27:59.035906 2020] [php7:error] [pid 4564:tid 1544] [client 174.7.115.156:61229] script 'C:/xampp/htdocs/bcit/error.php' not found or unable to stat
+[Mon Oct 19 19:30:20.232565 2020] [ssl:warn] [pid 4144:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 19:30:20.263801 2020] [core:warn] [pid 4144:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 19:30:20.263801 2020] [ssl:warn] [pid 4144:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 19:30:20.295037 2020] [mpm_winnt:notice] [pid 4144:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 19:30:20.295037 2020] [mpm_winnt:notice] [pid 4144:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 19:30:20.295037 2020] [core:notice] [pid 4144:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 19:30:20.295037 2020] [mpm_winnt:notice] [pid 4144:tid 256] AH00418: Parent: Created child process 4640
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 19:30:20.482450 2020] [ssl:warn] [pid 4640:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 19:30:20.513686 2020] [ssl:warn] [pid 4640:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 19:30:20.529304 2020] [mpm_winnt:notice] [pid 4640:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 19:33:39.928586 2020] [ssl:warn] [pid 4800:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 19:33:39.944204 2020] [core:warn] [pid 4800:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 19:33:39.944204 2020] [ssl:warn] [pid 4800:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 19:33:39.975440 2020] [mpm_winnt:notice] [pid 4800:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 19:33:39.975440 2020] [mpm_winnt:notice] [pid 4800:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 19:33:39.975440 2020] [core:notice] [pid 4800:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 19:33:39.975440 2020] [mpm_winnt:notice] [pid 4800:tid 256] AH00418: Parent: Created child process 3120
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 19:33:40.162853 2020] [ssl:warn] [pid 3120:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 19:33:40.194089 2020] [ssl:warn] [pid 3120:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 19:33:40.209707 2020] [mpm_winnt:notice] [pid 3120:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 19:50:31.290849 2020] [php7:notice] [pid 3120:tid 1536] [client 154.5.175.124:58254] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:50:31.290849 2020] [php7:notice] [pid 3120:tid 1536] [client 154.5.175.124:58254] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:50:31.290849 2020] [php7:notice] [pid 3120:tid 1536] [client 154.5.175.124:58254] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:50:31.290849 2020] [php7:notice] [pid 3120:tid 1536] [client 154.5.175.124:58254] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:50:31.290849 2020] [php7:notice] [pid 3120:tid 1536] [client 154.5.175.124:58254] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:50:31.290849 2020] [php7:notice] [pid 3120:tid 1536] [client 154.5.175.124:58254] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:51:27.673420 2020] [php7:notice] [pid 3120:tid 1540] [client 99.199.137.157:51151] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:51:27.673420 2020] [php7:notice] [pid 3120:tid 1540] [client 99.199.137.157:51151] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:51:27.673420 2020] [php7:notice] [pid 3120:tid 1540] [client 99.199.137.157:51151] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:51:27.673420 2020] [php7:notice] [pid 3120:tid 1540] [client 99.199.137.157:51151] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:51:27.673420 2020] [php7:notice] [pid 3120:tid 1540] [client 99.199.137.157:51151] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:51:27.673420 2020] [php7:notice] [pid 3120:tid 1540] [client 99.199.137.157:51151] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 19 19:53:31.180748 2020] [php7:notice] [pid 3120:tid 1544] [client 99.199.137.157:51169] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:53:31.180748 2020] [php7:notice] [pid 3120:tid 1544] [client 99.199.137.157:51169] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:53:31.180748 2020] [php7:notice] [pid 3120:tid 1544] [client 99.199.137.157:51169] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:53:31.180748 2020] [php7:notice] [pid 3120:tid 1544] [client 99.199.137.157:51169] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:53:31.180748 2020] [php7:notice] [pid 3120:tid 1544] [client 99.199.137.157:51169] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 19 19:53:31.180748 2020] [php7:notice] [pid 3120:tid 1544] [client 99.199.137.157:51169] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+'Pinging' is not recognized as an internal or external command,
+operable program or batch file.
+'Reply' is not recognized as an internal or external command,
+operable program or batch file.
+The system cannot find the file specified.
+'Reply' is not recognized as an internal or external command,
+operable program or batch file.
+'Reply' is not recognized as an internal or external command,
+operable program or batch file.
+'Packets:' is not recognized as an internal or external command,
+operable program or batch file.
+'Approximate' is not recognized as an internal or external command,
+operable program or batch file.
+'Minimum' is not recognized as an internal or external command,
+operable program or batch file.
+File Not Found
+File Not Found
+File Not Found
+'dirc:\' is not recognized as an internal or external command,
+operable program or batch file.
+File Not Found
+A subdirectory or file c:\jade already exists.
+File Not Found
+File Not Found
+A subdirectory or file c:\Wanrong already exists.
+[Mon Oct 19 21:16:43.658236 2020] [php7:error] [pid 3120:tid 1540] [client 185.86.164.102:54480] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Mon Oct 19 21:26:32.866203 2020] [ssl:warn] [pid 4520:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 21:26:32.881823 2020] [core:warn] [pid 4520:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 21:26:32.881823 2020] [ssl:warn] [pid 4520:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 21:26:32.913063 2020] [mpm_winnt:notice] [pid 4520:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 21:26:32.913063 2020] [mpm_winnt:notice] [pid 4520:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 21:26:32.913063 2020] [core:notice] [pid 4520:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 21:26:32.913063 2020] [mpm_winnt:notice] [pid 4520:tid 256] AH00418: Parent: Created child process 1968
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 21:26:33.100502 2020] [ssl:warn] [pid 1968:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 21:26:33.131741 2020] [ssl:warn] [pid 1968:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 21:26:33.147361 2020] [mpm_winnt:notice] [pid 1968:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 21:27:23.903249 2020] [ssl:warn] [pid 3632:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 21:27:23.934489 2020] [core:warn] [pid 3632:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 21:27:23.934489 2020] [ssl:warn] [pid 3632:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 21:27:23.950109 2020] [mpm_winnt:notice] [pid 3632:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 19 21:27:23.950109 2020] [mpm_winnt:notice] [pid 3632:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 19 21:27:23.950109 2020] [core:notice] [pid 3632:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 21:27:23.950109 2020] [mpm_winnt:notice] [pid 3632:tid 256] AH00418: Parent: Created child process 4364
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 21:27:24.153168 2020] [ssl:warn] [pid 4364:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 19 21:27:24.168787 2020] [ssl:warn] [pid 4364:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 21:27:24.200027 2020] [mpm_winnt:notice] [pid 4364:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 21:33:05.508504 2020] [authz_core:error] [pid 4364:tid 1552] [client 50.98.50.237:59814] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/index.php
+[Mon Oct 19 21:36:03.227821 2020] [authz_core:error] [pid 4364:tid 1552] [client 70.68.152.42:64436] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/index.php
+[Mon Oct 19 21:40:15.220098 2020] [authz_core:error] [pid 4364:tid 1552] [client 70.68.152.42:64454] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/index.php
+[Mon Oct 19 21:59:31.833618 2020] [authz_core:error] [pid 4364:tid 1540] [client 24.84.244.243:50736] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/index.php
+[Mon Oct 19 23:48:07.642015 2020] [php7:error] [pid 4364:tid 1548] [client 185.86.13.213:43929] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Mon Oct 19 23:53:07.309058 2020] [authz_core:error] [pid 4364:tid 1548] [client 180.104.21.107:11045] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/index.php
+[Tue Oct 20 00:07:34.680874 2020] [authz_core:error] [pid 4364:tid 1548] [client 18.162.193.25:50377] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/index.php
+[Tue Oct 20 00:42:10.296557 2020] [php7:error] [pid 4364:tid 1548] [client 78.85.206.27:16022] script 'C:/xampp/htdocs/installer-backup.php' not found or unable to stat
+[Tue Oct 20 01:04:36.597597 2020] [php7:error] [pid 4364:tid 1544] [client 185.85.239.195:43543] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Tue Oct 20 04:19:49.653104 2020] [php7:error] [pid 4364:tid 1548] [client 185.86.164.101:37854] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Tue Oct 20 06:54:11.779286 2020] [php7:error] [pid 4364:tid 1544] [client 185.119.81.11:35127] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Tue Oct 20 11:31:02.930159 2020] [php7:notice] [pid 4364:tid 1548] [client 196.240.54.116:45995] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Tue Oct 20 11:31:02.930159 2020] [php7:notice] [pid 4364:tid 1548] [client 196.240.54.116:45995] PHP Stack trace:
+[Tue Oct 20 11:31:02.930159 2020] [php7:notice] [pid 4364:tid 1548] [client 196.240.54.116:45995] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Tue Oct 20 13:19:44.404731 2020] [cgi:error] [pid 4364:tid 1548] [client 182.127.137.105:60923] AH02811: script not found or unable to stat: C:/xampp/htdocs/setup.cgi
+[Tue Oct 20 14:08:50.525202 2020] [cgi:error] [pid 4364:tid 1544] [client 59.93.19.45:57258] AH02811: script not found or unable to stat: C:/xampp/htdocs/setup.cgi
+[Tue Oct 20 14:51:52.681398 2020] [php7:error] [pid 4364:tid 1544] [client 47.240.32.191:60624] script 'C:/xampp/htdocs/docindex.php' not found or unable to stat, referer: http://site.ru
+[Tue Oct 20 15:50:27.150953 2020] [php7:notice] [pid 4364:tid 1544] [client 169.45.99.52:49948] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Tue Oct 20 15:50:27.150953 2020] [php7:notice] [pid 4364:tid 1544] [client 169.45.99.52:49948] PHP Stack trace:
+[Tue Oct 20 15:50:27.150953 2020] [php7:notice] [pid 4364:tid 1544] [client 169.45.99.52:49948] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Tue Oct 20 16:05:46.104882 2020] [php7:error] [pid 4364:tid 1544] [client 185.85.191.196:56473] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Tue Oct 20 16:49:57.359777 2020] [php7:error] [pid 4364:tid 1544] [client 185.86.164.102:49724] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Tue Oct 20 17:02:58.511787 2020] [php7:error] [pid 4364:tid 1544] [client 106.53.82.230:33756] script 'C:/xampp/htdocs/doc.php' not found or unable to stat, referer: http://site.ru
+[Tue Oct 20 17:03:24.896915 2020] [php7:error] [pid 4364:tid 1544] [client 106.53.82.230:34872] script 'C:/xampp/htdocs/doc.php' not found or unable to stat, referer: http://site.ru
+[Tue Oct 20 17:03:32.583752 2020] [php7:error] [pid 4364:tid 1548] [client 106.53.82.230:36048] script 'C:/xampp/htdocs/doc.php' not found or unable to stat, referer: http://site.ru
+[Tue Oct 20 19:56:58.377744 2020] [php7:error] [pid 4364:tid 1544] [client 185.86.164.103:58668] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Tue Oct 20 20:15:24.770544 2020] [php7:error] [pid 4364:tid 1552] [client 149.62.172.42:38805] script 'C:/xampp/htdocs/baindex.php' not found or unable to stat, referer: stevenover.land
+[Tue Oct 20 20:19:40.942132 2020] [php7:error] [pid 4364:tid 1540] [client 51.159.21.239:42872] script 'C:/xampp/htdocs/ajax-index.php' not found or unable to stat, referer: stevenover.land
+[Tue Oct 20 21:23:53.124191 2020] [php7:notice] [pid 4364:tid 1552] [client 102.165.30.41:49583] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Tue Oct 20 21:23:53.124191 2020] [php7:notice] [pid 4364:tid 1552] [client 102.165.30.41:49583] PHP Stack trace:
+[Tue Oct 20 21:23:53.124191 2020] [php7:notice] [pid 4364:tid 1552] [client 102.165.30.41:49583] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Tue Oct 20 22:25:52.691009 2020] [php7:error] [pid 4364:tid 1552] [client 185.86.164.99:51226] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Tue Oct 20 22:56:07.699712 2020] [php7:notice] [pid 4364:tid 1536] [client 209.17.97.90:65294] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Tue Oct 20 22:56:07.699712 2020] [php7:notice] [pid 4364:tid 1536] [client 209.17.97.90:65294] PHP Stack trace:
+[Tue Oct 20 22:56:07.699712 2020] [php7:notice] [pid 4364:tid 1536] [client 209.17.97.90:65294] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Tue Oct 20 23:27:52.000313 2020] [cgi:error] [pid 4364:tid 1552] [client 61.52.99.223:55813] AH02811: script not found or unable to stat: C:/xampp/htdocs/setup.cgi
+[Wed Oct 21 01:02:17.086750 2020] [php7:error] [pid 4364:tid 1536] [client 185.119.81.11:37381] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed Oct 21 01:31:09.210305 2020] [cgi:error] [pid 4364:tid 1552] [client 123.234.57.228:47758] AH02811: script not found or unable to stat: C:/xampp/htdocs/setup.cgi
+[Wed Oct 21 02:04:18.796380 2020] [php7:error] [pid 4364:tid 1536] [client 129.28.78.146:36854] script 'C:/xampp/htdocs/elrekt.php' not found or unable to stat
+[Wed Oct 21 03:04:17.049828 2020] [php7:error] [pid 4364:tid 1532] [client 185.85.239.195:43493] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed Oct 21 03:11:06.375508 2020] [php7:error] [pid 4364:tid 1532] [client 51.178.227.58:44356] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed Oct 21 03:37:43.404316 2020] [php7:error] [pid 4364:tid 1552] [client 62.129.139.241:53284] script 'C:/xampp/htdocs/content-post.php' not found or unable to stat, referer: http://site.ru
+[Wed Oct 21 06:44:20.339669 2020] [php7:error] [pid 4364:tid 1552] [client 185.86.164.106:33138] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed Oct 21 06:44:38.479116 2020] [core:error] [pid 4364:tid 1552] (20024)The given path is misformatted or contained invalid characters: [client 89.248.174.11:49212] AH00127: Cannot map GET /w00tw00t.at.blackhats.romanian.anti-sec:) HTTP/1.1 to file
+[Wed Oct 21 06:44:39.041367 2020] [authz_core:error] [pid 4364:tid 1544] [client 89.248.174.11:50182] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/scripts
+[Wed Oct 21 07:00:27.608437 2020] [php7:notice] [pid 4364:tid 1532] [client 178.73.215.171:24029] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed Oct 21 07:00:27.608437 2020] [php7:notice] [pid 4364:tid 1532] [client 178.73.215.171:24029] PHP Stack trace:
+[Wed Oct 21 07:00:27.608437 2020] [php7:notice] [pid 4364:tid 1532] [client 178.73.215.171:24029] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Wed Oct 21 08:54:28.515384 2020] [php7:error] [pid 4364:tid 1536] [client 106.55.46.65:48322] script 'C:/xampp/htdocs/elrekt.php' not found or unable to stat
+[Wed Oct 21 09:59:49.124319 2020] [php7:error] [pid 4364:tid 1548] [client 185.86.164.103:38406] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed Oct 21 09:59:55.982441 2020] [php7:error] [pid 4364:tid 1548] [client 45.40.166.21:55686] script 'C:/xampp/htdocs/hello.php' not found or unable to stat, referer: http://site.ru
+[Wed Oct 21 10:58:01.643971 2020] [php7:error] [pid 4364:tid 1540] [client 195.167.159.159:50994] script 'C:/xampp/htdocs/content-post.php' not found or unable to stat, referer: http://site.ru
+[Wed Oct 21 11:44:09.095714 2020] [php7:notice] [pid 4364:tid 1540] [client 193.239.147.184:57826] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed Oct 21 11:44:09.095714 2020] [php7:notice] [pid 4364:tid 1540] [client 193.239.147.184:57826] PHP Stack trace:
+[Wed Oct 21 11:44:09.095714 2020] [php7:notice] [pid 4364:tid 1540] [client 193.239.147.184:57826] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Wed Oct 21 12:05:31.462814 2020] [php7:error] [pid 4364:tid 1540] [client 185.86.164.101:58426] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed Oct 21 14:35:20.545084 2020] [php7:error] [pid 4364:tid 1548] [client 185.85.238.244:55017] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed Oct 21 14:40:33.853927 2020] [php7:error] [pid 4364:tid 1548] [client 75.119.200.129:42614] script 'C:/xampp/htdocs/content-post.php' not found or unable to stat, referer: http://site.ru
+[Wed Oct 21 14:46:42.757348 2020] [php7:notice] [pid 4364:tid 1548] [client 209.17.96.34:62375] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed Oct 21 14:46:42.757348 2020] [php7:notice] [pid 4364:tid 1548] [client 209.17.96.34:62375] PHP Stack trace:
+[Wed Oct 21 14:46:42.757348 2020] [php7:notice] [pid 4364:tid 1548] [client 209.17.96.34:62375] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Wed Oct 21 17:38:32.304311 2020] [php7:error] [pid 4364:tid 1548] [client 185.86.164.100:44816] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed Oct 21 17:54:05.355638 2020] [php7:error] [pid 4364:tid 1548] [client 129.146.190.190:60200] script 'C:/xampp/htdocs/wso.php' not found or unable to stat
+[Wed Oct 21 20:46:20.089446 2020] [authz_core:error] [pid 4364:tid 1540] [client 121.226.12.46:7506] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
+[Wed Oct 21 23:55:26.111084 2020] [php7:error] [pid 4364:tid 1536] [client 185.85.239.110:45575] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu Oct 22 00:40:32.362100 2020] [cgi:error] [pid 4364:tid 1540] [client 178.128.241.110:36712] AH02811: script not found or unable to stat: C:/xampp/htdocs/dnscfg.cgi
+[Thu Oct 22 03:37:54.104792 2020] [php7:error] [pid 4364:tid 1540] [client 185.86.164.103:48324] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu Oct 22 05:40:42.694865 2020] [php7:error] [pid 4364:tid 1540] [client 167.114.152.170:47676] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu Oct 22 06:06:16.010695 2020] [cgi:error] [pid 4364:tid 1540] [client 39.79.40.2:37029] AH02811: script not found or unable to stat: C:/xampp/htdocs/setup.cgi
+[Thu Oct 22 06:15:13.398425 2020] [php7:error] [pid 4364:tid 1540] [client 185.85.190.132:43876] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu Oct 22 06:19:58.954507 2020] [php7:error] [pid 4364:tid 1540] [client 178.62.1.145:44006] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu Oct 22 07:15:39.793145 2020] [php7:error] [pid 4364:tid 1540] [client 134.209.31.29:38356] script 'C:/xampp/htdocs/system_api.php' not found or unable to stat
+[Thu Oct 22 07:15:40.699006 2020] [php7:error] [pid 4364:tid 1540] [client 134.209.31.29:38484] script 'C:/xampp/htdocs/api.php' not found or unable to stat
+[Thu Oct 22 07:15:40.964517 2020] [php7:error] [pid 4364:tid 1536] [client 134.209.31.29:38522] script 'C:/xampp/htdocs/login.php' not found or unable to stat
+[Thu Oct 22 07:54:51.491278 2020] [php7:error] [pid 4364:tid 1536] [client 141.98.102.243:52211] script 'C:/xampp/htdocs/xmlrpc.php' not found or unable to stat
+[Thu Oct 22 07:54:53.099974 2020] [php7:error] [pid 4364:tid 1536] [client 141.98.102.243:51598] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu Oct 22 08:15:05.429379 2020] [php7:error] [pid 4364:tid 1540] [client 185.85.239.195:57574] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu Oct 22 11:09:47.820082 2020] [php7:notice] [pid 4364:tid 1536] [client 209.17.97.106:62723] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Thu Oct 22 11:09:47.820082 2020] [php7:notice] [pid 4364:tid 1536] [client 209.17.97.106:62723] PHP Stack trace:
+[Thu Oct 22 11:09:47.820082 2020] [php7:notice] [pid 4364:tid 1536] [client 209.17.97.106:62723] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Thu Oct 22 11:26:57.536371 2020] [authz_core:error] [pid 4364:tid 1548] [client 174.7.115.156:52828] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/
