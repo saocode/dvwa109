@@ -1627,3 +1627,19 @@ AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
 [Mon Oct 18 19:36:18.607677 2021] [php7:notice] [pid 3980:tid 1552] [client 154.20.163.201:51273] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
 [Mon Oct 18 19:36:18.607677 2021] [php7:notice] [pid 3980:tid 1552] [client 154.20.163.201:51273] PHP Stack trace:, referer: http://bcit.stevenover.land/
 [Mon Oct 18 19:36:18.607677 2021] [php7:notice] [pid 3980:tid 1552] [client 154.20.163.201:51273] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 25 17:57:55.366622 2021] [ssl:warn] [pid 5552:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 25 17:57:55.429066 2021] [core:warn] [pid 5552:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 25 17:57:55.429066 2021] [ssl:warn] [pid 5552:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 25 17:57:56.771621 2021] [mpm_winnt:notice] [pid 5552:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 25 17:57:56.771621 2021] [mpm_winnt:notice] [pid 5552:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 25 17:57:56.771621 2021] [core:notice] [pid 5552:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 25 17:57:56.771621 2021] [mpm_winnt:notice] [pid 5552:tid 256] AH00418: Parent: Created child process 7048
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 25 17:57:56.958954 2021] [ssl:warn] [pid 7048:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 25 17:57:56.990176 2021] [ssl:warn] [pid 7048:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 25 17:57:57.005787 2021] [mpm_winnt:notice] [pid 7048:tid 268] AH00354: Child: Starting 150 worker threads.
