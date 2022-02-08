@@ -1643,3 +1643,41 @@ AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
 AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
 [Mon Oct 25 17:57:56.990176 2021] [ssl:warn] [pid 7048:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Mon Oct 25 17:57:57.005787 2021] [mpm_winnt:notice] [pid 7048:tid 268] AH00354: Child: Starting 150 worker threads.
+A subdirectory or file c:\jk already exists.
+[Mon Oct 25 18:25:13.792718 2021] [php7:notice] [pid 7048:tid 1528] [client 174.7.108.139:1025] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 25 18:25:13.792718 2021] [php7:notice] [pid 7048:tid 1528] [client 174.7.108.139:1025] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 25 18:25:13.792718 2021] [php7:notice] [pid 7048:tid 1528] [client 174.7.108.139:1025] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 25 18:25:13.792718 2021] [php7:notice] [pid 7048:tid 1528] [client 174.7.108.139:1025] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 25 18:25:13.792718 2021] [php7:notice] [pid 7048:tid 1528] [client 174.7.108.139:1025] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 25 18:25:13.792718 2021] [php7:notice] [pid 7048:tid 1528] [client 174.7.108.139:1025] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 25 18:25:52.507562 2021] [php7:notice] [pid 7048:tid 1536] [client 174.7.108.139:29805] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 25 18:25:52.507562 2021] [php7:notice] [pid 7048:tid 1536] [client 174.7.108.139:29805] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 25 18:25:52.507562 2021] [php7:notice] [pid 7048:tid 1536] [client 174.7.108.139:29805] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 25 18:25:52.507562 2021] [php7:notice] [pid 7048:tid 1536] [client 174.7.108.139:29805] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 25 18:25:52.507562 2021] [php7:notice] [pid 7048:tid 1536] [client 174.7.108.139:29805] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 25 18:25:52.507562 2021] [php7:notice] [pid 7048:tid 1536] [client 174.7.108.139:29805] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 25 18:31:29.936523 2021] [php7:notice] [pid 7048:tid 1532] [client 174.7.108.139:23570] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 25 18:31:29.936523 2021] [php7:notice] [pid 7048:tid 1532] [client 174.7.108.139:23570] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 25 18:31:29.936523 2021] [php7:notice] [pid 7048:tid 1532] [client 174.7.108.139:23570] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 25 18:31:29.936523 2021] [php7:notice] [pid 7048:tid 1532] [client 174.7.108.139:23570] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 25 18:31:29.936523 2021] [php7:notice] [pid 7048:tid 1532] [client 174.7.108.139:23570] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 25 18:31:29.936523 2021] [php7:notice] [pid 7048:tid 1532] [client 174.7.108.139:23570] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+A subdirectory or file c:\your already exists.
+Error occurred while processing: c:\your.
+File Not Found
+[Mon Feb 07 17:08:29.184765 2022] [ssl:warn] [pid 5028:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Feb 07 17:08:29.247227 2022] [core:warn] [pid 5028:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 07 17:08:29.247227 2022] [ssl:warn] [pid 5028:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 07 17:08:30.623352 2022] [mpm_winnt:notice] [pid 5028:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Feb 07 17:08:30.623352 2022] [mpm_winnt:notice] [pid 5028:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Feb 07 17:08:30.623352 2022] [core:notice] [pid 5028:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Feb 07 17:08:30.623352 2022] [mpm_winnt:notice] [pid 5028:tid 256] AH00418: Parent: Created child process 2356
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Feb 07 17:08:30.795123 2022] [ssl:warn] [pid 2356:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Feb 07 17:08:30.826355 2022] [ssl:warn] [pid 2356:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 07 17:08:30.841970 2022] [mpm_winnt:notice] [pid 2356:tid 268] AH00354: Child: Starting 150 worker threads.
